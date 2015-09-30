@@ -2,7 +2,7 @@
 layout: post
 title: "Security for the Paranoid"
 date: 2015-09-12 18:28:00 -0700
-comments: false
+comments: true
 ---
 
 So I've been thinking about security lately after having a bad run in with a certain profile manager on a school wifi network that managed to run as root on my computer. After this ordeal which forced me to completely wipe my drive and its contents for fear that everything had been compromised, I got to thinking about what security means to me.
