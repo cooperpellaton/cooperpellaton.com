@@ -2,96 +2,97 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>{{ site.name }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-  <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
-  <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
-  <link rel="icon" href="/images/CEPPLogo.png" type="image/png" />
-  <meta charset="UTF-8">
-  <title>{{ site.name }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#778899">
-  <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-  <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
-  <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
-  <link rel="icon" href="/images/CEPPLogo.png" type="image/png" />
-  <title>Algolia | User Search</title>
-  <style>
-    .search {
-      text-align: center;
-    }
+	<meta charset="UTF-8">
+	<title>{{ site.name }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+	<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
+	<link rel="icon" href="/images/CEPPLogo.png" type="image/png" />
+	<meta charset="UTF-8">
+	<title>{{ site.name }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#778899">
+	<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+	<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
+	<link rel="icon" href="/images/CEPPLogo.png" type="image/png" />
+	<title>Algolia | User Search</title>
+	<style>
+		.search {
+			text-align: center;
+		}
 
-    .search input {
-      font-size: 20px;
-      width: 300px;
-    }
+		.search input {
+			font-size: 20px;
+			width: 300px;
+		}
 
-    .results {
-      margin: auto;
-      text-align: center;
-    }
+		.results {
+			margin: auto;
+			text-align: center;
+		}
 
-    .results ul {
-      list-style-type: none;
-      padding: 0;
-    }
-  </style>
-  <script>
-    $(document).ready(function() {
-      var client = algoliasearch('20KH11T8VV', '033fdf67211d6b8f59d4a1eb0f2677e7');
-      var index = client.initIndex('cepp.at');
-      var $input = $('input');
-      $input.keyup(function() {
-        index.search($input.val(), {
-          hitsPerPage: 10,
-          facets: '*'
-        }, searchCallback);
-      }).focus();
-    });
+		.results ul {
+			list-style-type: none;
+			padding: 0;
+		}
+	</style>
+	<script>
+		$(document).ready(function() {
+			var client = algoliasearch('20KH11T8VV', '033fdf67211d6b8f59d4a1eb0f2677e7');
+			var index = client.initIndex('cepp.at');
+			var $input = $('input');
+			$input.keyup(function() {
+				index.search($input.val(), {
+					hitsPerPage: 10,
+					facets: '*'
+				}, searchCallback);
+			}).focus();
+		});
 
-    function searchCallback(err, content) {
-      if (err) {
-        console.error(err);
-        return;
-      }
+		function searchCallback(err, content) {
+			if (err) {
+				console.error(err);
+				return;
+			}
 
-      var $users = $('#users');
-      $users.empty();
+			var $users = $('#users');
+			$users.empty();
 
-      for (var i = 0; i < content.hits.length; i++) {
-        $users.append('<li>' + content.hits[i].name + '</li>');
-      }
-    };
+			for (var i = 0; i < content.hits.length; i++) {
+				$users.append('<li>' + content.hits[i].name + '</li>');
+			}
+		};
 
-    console.log(content);
-    };
-  </script>
+		console.log(content);
+		};
+	</script>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row-fluid">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-            <li class="active visible-xs-block"><a href="{{ site.baseurl }}/links.html">Links</a></li>
-            <li class="active"><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
-            <li class="active"><a href="{{ site.baseurl }}/about.html">About</a></li>
-            <!--li class = "active">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
+						<li class="active visible-xs-block"><a href="{{ site.baseurl }}/links.html">Links</a></li>
+						<li class="active"><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+						<li class="active"><a href="{{ site.baseurl }}/about.html">About</a></li>
+						<li class="active"><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
+						<!--li class = "active">
               <div class="search">
                 <input type="text">
               </div>
@@ -103,9 +104,9 @@
               <script>
                 //TODO
               </script-->
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
