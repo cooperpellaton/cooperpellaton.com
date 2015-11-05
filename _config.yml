@@ -35,7 +35,6 @@ redcarpet:
 exclude: ['README.md', 'LICENSE']
 gems:
   - algoliasearch-jekyll
-  - s3_website.yml
 algolia:
   application_id: '20KH11T8VV'
   index_name: 'cepp.at'
