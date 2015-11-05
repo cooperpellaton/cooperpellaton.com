@@ -10,7 +10,7 @@ url: http://cepp.at
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: 
+baseurl:
 
 # This can be '' to hide the Github nav button
 github: 'cooperpellaton'
@@ -35,6 +35,7 @@ redcarpet:
 exclude: ['README.md', 'LICENSE']
 gems:
   - algoliasearch-jekyll
+  - s3_website.yml
 algolia:
   application_id: '20KH11T8VV'
   index_name: 'cepp.at'
