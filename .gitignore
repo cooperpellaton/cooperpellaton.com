@@ -1,3 +1,4 @@
 _cache
 _site
-s3_website.yml 
+s3_website.yml
+.DS_Store
