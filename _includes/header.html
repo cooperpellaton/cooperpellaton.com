@@ -33,57 +33,6 @@
 	<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
 	<link rel="icon" href="/images/CEPPLogo.png" type="image/png" />
-	<title>Algolia | User Search</title>
-	<style>
-		.search {
-			text-align: center;
-		}
-
-		.search input {
-			font-size: 20px;
-			width: 300px;
-		}
-
-		.results {
-			margin: auto;
-			text-align: center;
-		}
-
-		.results ul {
-			list-style-type: none;
-			padding: 0;
-		}
-	</style>
-	<script>
-		$(document).ready(function() {
-			var client = algoliasearch('20KH11T8VV', '033fdf67211d6b8f59d4a1eb0f2677e7');
-			var index = client.initIndex('cepp.at');
-			var $input = $('input');
-			$input.keyup(function() {
-				index.search($input.val(), {
-					hitsPerPage: 10,
-					facets: '*'
-				}, searchCallback);
-			}).focus();
-		});
-
-		function searchCallback(err, content) {
-			if (err) {
-				console.error(err);
-				return;
-			}
-
-			var $users = $('#users');
-			$users.empty();
-
-			for (var i = 0; i < content.hits.length; i++) {
-				$users.append('<li>' + content.hits[i].name + '</li>');
-			}
-		};
-
-		console.log(content);
-		};
-	</script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -105,21 +54,6 @@
 						<li class="active"><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
 						<li class="active"><a href="{{ site.baseurl }}/about.html">About</a></li>
 						<li class="active"><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
-
-            <!-- This will be the code to implement the Agolia search when I get around to styling the search field in a proper manner.-->
-            <!--li class = "active">
-              <div class="search">
-                <input type="text">
-              </div>
-              <div class="results">
-                <ul id="users"></ul>
-              </div>
-              <script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
-              <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-              <script>
-                //TODO
-              </script-->
-						<!--End Algolia implementation block.-->
 					</ul>
 				</div>
 			</div>
