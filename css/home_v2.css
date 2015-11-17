@@ -1,0 +1,14 @@
+.container{margin-top:15%;margin-left:8%;max-width:28rem}
+table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;vertical-align:baseline;background:transparent}
+tbody tr:nth-child(odd) td,tbody tr:nth-child(odd)
+th{background-color:inherit}
+.home-name{margin-bottom:.2rem}
+.home-subtitle{color:#757575}
+.home-subtitle a{color:inherit}
+.home-header{margin-bottom:.3rem}
+.home-nav{max-width:17rem}
+.home-nav td{padding-top:0px;padding-left:0px;padding-right:0px;padding-bottom:0px}
+.home-nav-secondary{opacity:0.8}
+.home-nav-secondary a{color:#4B86B0}
+.home-nav-secondary span:after{content:' /';color:#c0c0c0}
+.home-nav-secondary span:last-of-type:after{content:''}
