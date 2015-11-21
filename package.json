@@ -1,0 +1,19 @@
+{
+  "name": "cooperpellaton.github.io",
+  "version": "1.0.0",
+  "description": "##What is this thing? This site is a personal effort by Cooper Pellaton to put work on the web :cat:. The intent of this site is not to look pretty, or to be on the leading edge of design, but simply to look as ugly as possible. It's my express opinion that content transcends form and I do not want to parade a fancy site when the most important thing is the work and writing I am hosting there.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooperpellaton/cooperpellaton.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cooperpellaton/cooperpellaton.github.io/issues"
+  },
+  "homepage": "https://github.com/cooperpellaton/cooperpellaton.github.io#readme"
+}
