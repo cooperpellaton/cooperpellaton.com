@@ -3,6 +3,7 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta charset="UTF-8">
 	<title>Cooper Pellaton</title>
 	<link rel="stylesheet" href="/css/base.css">
 	<link rel="stylesheet" href="//algorithmia.com/assets/stylesheets/recommends.css">
@@ -16,30 +17,34 @@
 <body>
 	<div class="container content">
 		<div class="home-header">
-			<h1 class="home-name">Cooper Pellaton</h1>
+			<h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">Cooper Pellaton</a></h1>
 			<div class="home-subtitle">Student at <a rel="nofollow" href="https://www.cics.umass.edu/" target="_blank" class="emphasis">UMass CS</a></div>
-			<!-- <div class="home-subtitle">Formerly at: <a rel="nofollow" href="https://www.google.com/" class="emphasis">Google</a>, <a rel="nofollow" href="http://www.microsoft.com/" class="emphasis">Microsoft</a>, <a rel="nofollow" href="http://www.cisco.com/" class="emphasis">Cisco</a>.</div> -->
+			<h2>Security for the Paranoid</h2>
+			<h5>2015-09-12</h5>
 		</div>
 		<p>So I've been thinking about security lately after having a bad run in with a certain profile manager on a school wifi network that managed to run as root on my computer. After this ordeal which forced me to completely wipe my drive and its contents
 			for fear that everything had been compromised, I got to thinking about what security means to me.</p>
 
-		<p>I don't think that I'm an [RMS](https://stallman.org/), although I wouldn't mind living in the MIT basement, but I realized that I have a reasonable expectation of privacy in my life. I expect that most of my files will not be snooped on, or observed
-			by an outside party, I expect that my network traffic will be reasonably protected and never MITMd. For this reason I have my drives and important files encrypted. I only browse online while under the guise of a VPN and using a proxy. When it comes
-			to security I'm not a tin-foil hat wearer but I also do not believe in the greater good. I'm not so naive as to believe that my privacy is best trusted in the hands of others (that being the government, or the companies which I trust to host some of
-			my files online-- Google and Dropbox). I recognize that if I want to maintain my privacy I must bring things into my own hands.</p>
+		<p>I don't think that I'm an <a rel="nofollow" href="https://stallman.org/" class="emphasis">RMS</a>, although I wouldn't mind living in the MIT basement, but I realized that I have a reasonable expectation of privacy in my life. I expect that most of
+			my files will not be snooped on, or observed by an outside party, I expect that my network traffic will be reasonably protected and never MITMd. For this reason I have my drives and important files encrypted. I only browse online while under the guise
+			of a VPN and using a proxy. When it comes to security I'm not a tin-foil hat wearer but I also do not believe in the greater good. I'm not so naive as to believe that my privacy is best trusted in the hands of others (that being the government, or
+			the companies which I trust to host some of my files online-- Google and Dropbox). I recognize that if I want to maintain my privacy I must bring things into my own hands.</p>
 
 		<p>I reconsidered what how I define and uphold the term privacy in my own life. In short, seeing my network traffic get MITMd, having my right to browse with a VPN denied, and having SSL stripped on a network which I had no choice but to use made me paranoid
 			enough to last the rest of my life. Fortunately for me, I've found a way to circumvent all of the above now, but it was this situation which made me reconsider what my definition of is privacy. Since then I've encrypted most of my files using the last
-			trustable issuance of TrueCrypt (7.1a) and have purchased a [YubiKey](https://www.yubico.com/products/yubikey-hardware/yubikey-neo/) for hardware two-factor authentication and static password holding.</p>
+			trustable issuance of TrueCrypt (7.1a) and have purchased a <a rel="nofollow" href="https://www.yubico.com/products/yubikey-hardware/yubikey-neo/" class="emphasis">YubiKey</a> for hardware two-factor authentication and static password holding.</p>
 
-		<p>On the topic of passwords-- I've decided to leave [1Password](https://agilebits.com/onepassword) for the likes of [LastPass](https://lastpass.com/). I'm using hardware 2FA now for all services which support it (Dropbox, Google and LastPass) and have
-			started generating even stronger passwords using a combination of [Diceware](https://en.wikipedia.org/wiki/Diceware) and 32 character static passwords.</p>
+		<p>On the topic of passwords-- I've decided to leave <a rel="nofollow" href="https://agilebits.com/onepassword" class="emphasis">1Password</a> for the likes of <a rel="nofollow" href="https://lastpass.com/" class="emphasis">LastPass</a>. I'm using hardware
+			2FA now for all services which support it (Dropbox, Google and LastPass) and have started generating even stronger passwords using a combination of <a rel="nofollow" href="https://en.wikipedia.org/wiki/Diceware" class="emphasis">DiceWare</a> and 32
+			character static passwords.</p>
 
 		<p>I've also been thinking about exposure and where my files are hosted. I used to separate my storage amongst several providers. I would keep photos and multimedia in Dropbox, back up my phone and put text files and other relatively small files in Google
 			Drive, all while backing up my computer and NAS to CrashPlan. I do none of the above now. At this point in time I am syncing only one file-- a fully encrypted TrueCrypt vault to Google Drive which contains all of the files I will need that are not
-			full computer backups. For my machine I've created some [dotfiles](https://dotfiles.github.io/) files and now store all my code in Github Private repos. Everything else that manages to slip between media/writing and code, I use [TarSnap](https://www.tarsnap.com/)
-			to create encrypted backups which tend to be quite small and therefore cheap seeing as the vast majority of my large files are in Google Drive. From my initial backup I've found that it will cost me about $12 per month to keep my backups on TarSnap
-			and while this is more expensive than CrashPlan I've found that my piece of mind is worth a few more dollars per month. This has eased the stress of where my files reside.</p>
+			full computer backups. For my machine I've created some <a rel="nofollow" href="https://dotfiles.github.io/" class="emphasis">dotfiles</a> files and now store all my code in Github Private repos. Everything else that manages to slip between media/writing
+			and code, I use <a rel="nofollow" href="https://www.tarsnap.com/" class="emphasis">TarSnap</a> to create encrypted backups which tend to be quite small and therefore cheap seeing as the vast majority of my large files are in Google Drive. From my initial
+			backup I've found that it will cost me about $12 per month to keep my backups on TarSnap and while this is more expensive than CrashPlan I've found that my piece of mind is worth a few more dollars per month. This has eased the stress of where my files
+			reside.
+		</p>
 
 		<p>My ultimate end goal is to get to a 100% Linux, and self controlled lifestyle but for right now that's not feasible. The best I can do at the moment is an Arch and Mac OS-X dual boot because unfortunately the use of Microsoft Office applications, and
 			other science/calculator proprietary applications are required by my university. Yes, I am aware that these can be run in Wine (the simulator) and I do plan to experiment with this by the end of the year.</p>
