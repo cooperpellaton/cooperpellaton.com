@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/cooperpellaton/cooperpellaton.com.svg?branch=master)](https://travis-ci.org/cooperpellaton/cooperpellaton.com)
 #You made what? A website?!
 
 ##What is this thing?
