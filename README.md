@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/cooperpellaton/cooperpellaton.com.svg?branch=master)](https://travis-ci.org/cooperpellaton/cooperpellaton.com)
 #You made what? A website?!
 
+[![Build Status](https://travis-ci.org/cooperpellaton/cooperpellaton.com.svg?branch=master)](https://travis-ci.org/cooperpellaton/cooperpellaton.com)
 ##What is this thing?
 This site is a personal effort by Cooper Pellaton to put work on the web :cat:. The intent of this site is not to look pretty, or to be on the leading edge of design, but simply to look as ugly, but clean as possible. It's my express opinion that content transcends form and I do not want to parade a fancy site when the most important thing is the work and writing I am hosting there.
 
