@@ -1,4 +1,13 @@
-Options +MultiViews
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteBase /
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
