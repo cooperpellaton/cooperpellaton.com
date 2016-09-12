@@ -47,26 +47,33 @@
     <div class="container content">
         <div class="home-header">
             <h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">Not-So-Cool Projects</a></h1>
-            <p>I'm a pretty boring guy, let's be honest. Here you can find the boring projects that I waste most of my time on. This should be pretty self-explanatory, but to avoid any questions I'll make this clear. I host <b>all</b> my code on GitHub. I'm a believer in FOSS and therefore none of my work or information is private. On this site I've created an additional space where I can put up additional resources and/or information/comments that didn't make it into the git repositories. Also, this comprises and entire list of what I've worked on.</p>
+            <p>Here you can find the boring projects that I waste most of my time on. This should be pretty self-explanatory, but to avoid any questions I'll make this clear: I host <b>all</b> my code on GitHub. None of my work or information is private. On this site I put up resources and/or information/comments that didn't make it into the git repositories. This is a selection of some projects I've worked on.</p>
         </div>
         <div class="well">
-            <h4><a href="https://github.com/cooperpellaton/PGE">PGE - Pretty Good Email</a></h4>
-            <p>This project is in active development.</p>
-            <p>What is PGE you say to yourself? PGE means "Pretty Good Email," which is an email encryptor based on the Pretty Good Protection specification. The core selling point of PGE is that all encryption happens locally, on the client computer before any data is transmitted. Thus, one can rest assured that even their most secure of secrets will not fall into the wrong hands during transmission as the only time the unencrypted file will be seen is on the client computer at the time of the emails inception, and at the time of opening by the intended recipient.</p>
-            <p>Using OpenPGP.js and the Keybase API as well as KBPGP.js we check a users email against existing accounts to figure out their public keys and then use this information to encrypt her email. This is currently written to work with FastMail and expressly being tested as a Greasemonkey/Tampermonkey script. It is the intention of this project to bundle it as a Chrome extension, which given proper care in our XMLHttpRequest header will be able to parse data coming from any email provider and thus render the same surface.</p>
-
-            <h4><a href="https://github.com/cooperpellaton/SniffleGiggle">SniffleGiggle</a></h4>
-            <p>This is a product of HampHack '16.</p>
-            <p>SniffleGiggle you say questioningly to yourself...what is it? My friend, Thomas Lam, told me about a scence in <i>Parks and Rec</i> referenced in our readme where a character, Tommy, shares his talking tissues with colleagues. What we've built here is just that, a talking, sassy tissue box.</p>
-            <p>Built using an Intel Edison, a plethora of sensors and some node, this was a quick hardware hack that we cobbled together. We turned the Edison into a web server running Node with Express and Socket.io to send events to the client and tell it to play a random pre-recorded sound. This was built with <a href="https://nodejs.org/en/">Node.js</a>, <a href="http://socket.io/">Socket.io</a>, <a href="http://johnny-five.io/">Johnny-Five</a> and an Intel Edison.</p>
-
-            <h4><a href="https://github.com/cooperpellaton/Bingham-Auction-Site">Bingham Auction Site</a></h4>
-            <p>This is a pretty simple idea. Some friends had a futon they wanted to rent for 💘 Valentine's day 💰 and I had some spare server space to put up an 💰 auction site 💰. This is a pretty simple Bootstrap and GitHub Markdown implementation. This is clean, simple and gets to the point.</p>
-
-            <h4><a href="https://github.com/thomaslam/HotlineBing">Hotline-Bing</a></h4>
-            <p>Won best use of Priceline API at YHACK-2015. Won 2nd best use of HP Haven-On-Demand API.</p>
-            <p>A product of YHACK-2015, Hotline-Bing is an SMS driven web-search client. Search the internet and used internet based services when you have no internet! Based on initial user input as stored in note the query is either handed off to Haven-On-Demand where text analysis is done and the proper dates and locations are returned, or given directly to Bing.</p>
-            <p>If the user indicates that she wants to look for a hotel on Priceline than the API is queried with the users input and the top hotels are returned. The user gets to see the top hotel listings in the selected area with the option to learn more about any of them. If they user indicates that they would like to pay then a link to the Braintree payments system is sent to them where they can then pay for the hotel room at that time.</p>
+            <ul>
+                <li><h4><a href="https://github.com/printshare" target="_blank">PrintShare</a></h4>
+                <p>A four month medical adventure.</p>
+                <p>PrintShare was a noble attempt to revolutionize document sharing in the health setting. For the uninitiated, documents are currently faxed from medical institution to medical institution and can take up to 3 weeks to process. Aaron Aabajin and myself designed this end to end solution which would enable a health service center to share a medical record direct from an Electronic Health Record (EHR) system to anywhere else without printing. If the reciever so happened to be using PrintShare the Electronic Medical Record would also be immediately inserted into their EHR.</p>
+                <p>We were unable to raise further funding for this project and development stopped in May 2016. Our secure fileupload API is available <a href="https://github.com/PrintShare/Node.js-Lambda-Trigger" target="_blank"><i>here</i></a> & you can read about the entire experience <a href="https://cepp.ch/blog/printshare" target="_blank"><i>here</i></a>.</p></li>
+               
+                <li><h4><a href="https://github.com/cooperpellaton/PGE" target="_blank">PGE - Pretty Good Email</a></h4>
+                <p>This project is in active development.</p>
+                <p>What is PGE you say to yourself? PGE means "Pretty Good Email," which is an email encryptor based on the Pretty Good Protection specification. The core selling point of PGE is that all encryption happens locally, on the client computer before any data is transmitted. Thus, one can rest assured that even their most secure of secrets will not fall into the wrong hands during transmission as the only time the unencrypted file will be seen is on the client computer at the time of the emails inception, and at the time of opening by the intended recipient.</p>
+                <p>Using OpenPGP.js and the Keybase API as well as KBPGP.js we check a users email against existing accounts to figure out their public keys and then use this information to encrypt her email. This is currently written to work with FastMail and expressly being tested as a Greasemonkey/Tampermonkey script. It is the intention of this project to bundle it as a Chrome extension, which given proper care in our XMLHttpRequest header will be able to parse data coming from any email provider and thus render the same surface.</p></li>
+                
+                <li><h4><a href="https://github.com/cooperpellaton/SniffleGiggle" target="_blank">SniffleGiggle</a></h4>
+                <p>This is a product of HampHack '16.</p>
+                <p>SniffleGiggle you say questioningly to yourself...what is it? My friend, Thomas Lam, told me about a scence in <i>Parks and Rec</i> referenced in our readme where a character, Tommy, shares his talking tissues with colleagues. What we've built here is just that, a talking, sassy tissue box.</p>
+                <p>Built using an Intel Edison, a plethora of sensors and some node, this was a quick hardware hack that we cobbled together. We turned the Edison into a web server running Node with Express and Socket.io to send events to the client and tell it to play a random pre-recorded sound. This was built with <a href="https://nodejs.org/en/" target="_blank">Node.js</a>, <a href="http://socket.io/" target="_blank">Socket.io</a>, <a href="http://johnny-five.io/" target="_blank">Johnny-Five</a> and an Intel Edison.</p></li>
+                
+                <li><h4><a href="https://github.com/cooperpellaton/Bingham-Auction-Site" target="_blank">Bingham Auction Site</a></h4>
+                <p>This is a pretty simple idea. Some friends had a futon they wanted to rent for 💘 Valentine's day 💰 and I had some spare server space to put up an 💰 auction site 💰. This is a pretty simple Bootstrap and GitHub Markdown implementation. This is clean, simple and gets to the point.</p></li>
+                
+                <li><h4><a href="https://github.com/thomaslam/HotlineBing" target="_blank">Hotline-Bing</a></h4>
+                <p>Won best use of Priceline API at YHACK-2015. Won 2nd best use of HP Haven-On-Demand API.</p>
+                <p>A product of YHACK-2015, Hotline-Bing is an SMS driven web-search client. Search the internet and used internet based services when you have no internet! Based on initial user input as stored in note the query is either handed off to Haven-On-Demand where text analysis is done and the proper dates and locations are returned, or given directly to Bing.</p>
+                <p>If the user indicates that she wants to look for a hotel on Priceline than the API is queried with the users input and the top hotels are returned. The user gets to see the top hotel listings in the selected area with the option to learn more about any of them. If they user indicates that they would like to pay then a link to the Braintree payments system is sent to them where they can then pay for the hotel room at that time.</p></li>
+            </ul>
         </div>
         <script type="application/ld+json">
         {
