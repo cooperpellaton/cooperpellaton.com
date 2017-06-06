@@ -1,0 +1,19 @@
+--- 
+layout: post 
+title: FreeFail
+---
+<div class="container content">
+    <div class="home-header">
+        <h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">Update: I Failed@Free Software</a></h1>
+        <h5 style="margin-top:0rem">2016-03-21</h5>
+    </div>
+    <p>"Put away your inhibitions \ Let the beast in you just get loose"
+        <br> -- Flume, <a rel="nofollow" href="http://genius.com/Flume-lose-it-lyrics" target="_blank" class="emphasis">Lose It</a></p>
+    <p>I need to provide you with an update on my journey to free software use.</p>
+    <p>This was a rough year for me, in many ways. I’ve been through a lot and my opinions on both software & productivity have changed substantially.</p>
+    <p>I used to think that I owned devices to enjoy them. I wanted the latest and the greatest just so I could have it. Work was a secondary concern. Now, that is not so much the case for me. More than anything, I now prioritize above all else my ability to work efficiently. When I sit down at my computer, it’s not about having the most pleasureable experience or enjoying myself but about how I can most swiftly conquer my inbox, produce a deliverable, communicate with others, etc.</p>
+    <p>Working with this mindset has lead me to re-evaluate my goals. When I started my free software project I wanted to do it so that I could say I’d done it and feel good about myself. Unfortunately, as I became more deeply involved I felt both my productivity and ability slipping. This was not, and is not the path that I want to go down.</p>
+    <p>That’s why today, Monday, May 30<sup>th</sup>, I’m announcing that I failed to meet my goal of using 100% free software by May 5<sup>th</sup> 2016, and ironically am now using more paid software than I when I began.</p>
+    <p>I leave one recommendation: don’t pursue goals to simply accomplish them; rather, pursue those that a) you deeply believe in and b) align well with your outlook and needs. With this in mind, don’t try to force yourself to follow a philosophy that sounds perfect in theory but doesn’t personally work for you. Do what is right for yourself and your work.</p>
+    <p>I still fully support and will continue to work on open source, but the best way for me to do so is by not using 100% free software.</p>
+</div>
