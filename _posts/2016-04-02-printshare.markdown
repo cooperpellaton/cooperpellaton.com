@@ -2,7 +2,7 @@
 layout: post 
 title: 🖨PrintShare🖨
 date: 2016-04-02
-permalink: /blog/printshare
+permalink: /blog/printshare.html
 ---
 <div class="container content">
     <div class="home-header">

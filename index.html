@@ -10,17 +10,17 @@ title: Cooper Pellaton
     </div>
     <table class="home-nav">
         <tr class="home-nav-section">
-            <td class="home-nav-primary"><a href="/about">about</a></td>
+            <td class="home-nav-primary"><a href="/about.html">about</a></td>
             <td class="home-nav-secondary">
                 <span><a href="/images/Cooper-Pellaton_ResumeV2_2016.pdf">resume</a></span>
                 <span><a rel="nofollow" href="https://www.linkedin.com/in/cooperpellaton">linkedin</a></span>
-                <span><a href="/bookshelf">reading</a></span>
+                <span><a href="/bookshelf.html">reading</a></span>
                 <span><a href="https://track.cepp.ch">health</a></span>
             </td>
         </tr>
         <tr class="home-nav-section">
             <td class="home-nav-primary">
-                <a href="/projects">projects</a></td>
+                <a href="/projects.html">projects</a></td>
             <td class="home-nav-secondary">
                 <span><a rel="nofollow" href="https://github.com/cooperpellaton">github</a></span>
                 <span><a href="/projects">list</a></span>
@@ -30,7 +30,9 @@ title: Cooper Pellaton
             <td class="home-nav-primary">
                 <a href="/blog.html">writing</a></td>
             <td class="home-nav-secondary">
-                <span><a href="/blog/freefail">latest</a></span>
+                {% for post in site.posts limit:1 %}
+                    <span><a href="{{ post.url }}">latest</a></span>
+                {% endfor %}
             </td>
         </tr>
         <tr class="home-nav-section">
