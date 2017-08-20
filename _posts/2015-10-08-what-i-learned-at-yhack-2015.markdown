@@ -3,11 +3,7 @@ layout: post
 title: What I Learned @ YHACK 2015
 date: 2015-10-08
 ---
-<div class="container content">
-	<div class="home-header">
-		<h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">What I Learned @ YHACK 2015</a></h1>
-	    <h5>2015-10-08</h5>
-	</div>
+<div>
 	<p>I’ve just returned from <a rel="nofollow" href="http://www.yhack.org/" class="emphasis">YHACK</a> 2015 and want to write about the event while it’s fresh in my mind. While you read this, realize that this was my first hackathon and that my intent was to produce a good performance (i.e. the intended goal was to win an API challenge/win the event).</p>
 
 	<p>Take the following as advice to any newcomers.</p>

@@ -3,14 +3,12 @@ layout: post
 title: 🖨PrintShare🖨
 date: 2016-04-02
 permalink: /blog/printshare.html
+lyric: "I love my life But when I open up my blurry eyes It's not as nice"
+artist: — K.Flay,
+genius_link: http://genius.com/Kflay-fml-lyrics
+song: FML
 ---
-<div class="container content">
-    <div class="home-header">
-        <h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">PrintShare</a></h1>
-        <h5 style="margin-top:0rem">2016-04-02</h5>
-    </div>
-    <p>"I love my life But when I open up my blurry eyes It's not as nice"
-        <br> -- K.Flay, <a rel="nofollow" href="http://genius.com/Kflay-fml-lyrics" target="_blank" class="emphasis">FML</a></p>
+<div>
     <p><strong><i>NOTE: This is in many ways a rant about fundraising, starting companies and how code/idea quality do not necessarily correlate directly to sucess. To maintain what little sanity I have left this post has been backdated.</i></strong></p>
     <p>I’m tired. I’m really tired. Let me tell you why.</p>
     <p>All of this, the entire journey that lead to the creation and failure to further PrintShare, started back in January when I decided to attend a medical hackathon. This story is going to be incredibly long, so let me just say from the onset, if you’re not interested, this would probably be the time to bail.</p>

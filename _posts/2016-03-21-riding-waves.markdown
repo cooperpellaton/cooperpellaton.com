@@ -2,14 +2,12 @@
 layout: post 
 title: Riding Waves
 date: 2016-03-21 
+lyric: "I'm lost in the world, been down my whole life"
+artist: — Kanye West,
+genius_link: http://genius.com/Kanye-west-lost-in-the-world-lyrics
+song: Lost In The World
 ---
-<div class="container content">
-    <div class="home-header">
-        <h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">Riding Waves</a></h1>
-        <h5 style="margin-top:0rem">2016-03-21</h5>
-    </div>
-    <p>"I'm lost in the world, been down my whole life"
-        <br> -- Kanye West, <a rel="nofollow" href="http://genius.com/Kanye-west-lost-in-the-world-lyrics" target="_blank" class="emphasis">Lost In The World</a></p>
+<div>
     <p>So I’ve been putting off writing this for a while because I knew it would mean looking critically into my own life and evaluating my goals, but the longer I wait the more important I realize this exercise in introspection is.</p>
     <p>For one reason or another (I can’t quite pin it down), I have very low self-confidence. I’m not quite sure why, I just know that I take compliments rather poorly and am very rarely proud or exuberant about myself or my accomplishments. It might be because I was told regularly I was too selfish when I was young, or because I was always part of good teams, but never the star player or the one responsible for the team’s success — I’ve always just been <i>there</i>.</p>
     <p>Recently though, I’ve found myself in this pitfall: riding waves. Right now you’re probably thinking to yourself, “Cooper, what in the world do you mean by riding waves?” And I’d respond to you, well dear reader, please sit back because I’m about to tell you!</p>

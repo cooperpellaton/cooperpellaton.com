@@ -3,11 +3,7 @@ layout: post
 title: How Size Defined the Laptop
 date: 2015-09-28
 ---
-<div class="container content">
-	<div class="home-header">
-        <h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">How Size Defined the Laptop</a></h1>
-        <h5>2015-09-28</h5>
-	</div>
+<div>
 	<p>I reluctantly picked up Steven Levy’s <a rel="nofollow" href="http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396" target="_blank" class="emphasis">“Hackers: Heroes of the Computer Revolution”</a> as suggested reading
 		for a computer science seminar that I’m currently taking. On a whim, I began reading and was unable to put the book down. I realize now that what I found so addicting about that read is the allure that early computing has. For all the prowess we might
 		have today, working with high level, object oriented programming languages on monitors approaching higher pixel densities than our eyes can distinguish, we forget the origins of our skills — that hacker culture that put the scraps together and coded

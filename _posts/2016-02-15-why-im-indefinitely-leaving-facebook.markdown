@@ -2,14 +2,12 @@
 layout: post 
 title: Why I'm Indefinintely Leaving Facebook
 date: 2016-02-15
+lyric: "Fuck a fake friend, where your real friends at?"
+artist: — Drake
+genius_link: http://genius.com/Drake-started-from-the-bottom-lyrics
+song: Started From the Bottom
 ---
-<div class="container content">
-    <div class="home-header">
-        <h1 class="home-name"> <a rel="nofollow" href="/" class="emphasis">Why I'm Indefinitely Leaving Facebook</a></h1>
-        <h5>2016-02-15</h5>
-    </div>
-    <p>"Fuck a fake friend, where your real friends at?"
-        <br> -- Drake, <a rel="nofollow" href="http://genius.com/Drake-started-from-the-bottom-lyrics" target="_blank" class="emphasis">Started From the Bottom</a></p>
+<div>
     <p><i>Some months ago <a rel="nofollow" href="https://evalinexie.com" target="_blank" class="emphasis">Evaline Xie</a> shared an essay with me on social media being a means for healthy introspection of one’s life. She hypothesized that if done correctly, a social media presence could be equal in value to that of a well documented journal of one’s feelings.</i></p>
     <p>I’ve been on Facebook for a long time: since the middle of 2007 when accounts were first opened to the public (I was 10 years old) and I’ve seen it go through many tides. I’ve seen my fair share of redesigns, feature introductions and sunsets, as well as the rotation in crops of friends. The <i>only</i> thing that remains from those earliest years, save few of the friends I have from then, are the very young pictures of me.</p>
     <p>For a while, I’ve taken a contrarian approach to Facebook. I’ve trimmed my friends every year or so trying to avoid the <b>fake</b> friends -- the ones whose photos and posts you like, or you like solely for avoiding the fear of missing out but who you never interact with meaningfully. I ruthlessly unfollowed and unfriended family and I constantly tried to limit the number of groups I was a part of. Yet throughout all of this I felt my return on investment was very low. I would spend ~5-10 minutes per day perusing my feed only to leave feeling worse than before. I’d feel bad only seeing friends achievements or pictures when I had none of my own to post. To be clear, it’s <i>not</i> that I feel like my life is devoid of those things, it’s more so just that I seldom post in the first place (that’s a matter for another post though).</p>

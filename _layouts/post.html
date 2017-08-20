@@ -6,10 +6,15 @@
     <meta charset="utf-8">
     <title>{{page.title}}</title>
     <link rel="stylesheet" href="../../../css/base.css">
+    <link rel="stylesheet" href="../../../css/blog.css">
     <!-- <link rel="stylesheet" href="/css/markdown.css"> -->
     <link rel="stylesheet" href="//algorithmia.com/assets/stylesheets/recommends.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <!-- The post font. -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <!-- The lyric font. -->
+    <link href="https://fonts.googleapis.com/css?family=Signika:600" rel="stylesheet">
     <meta name="author" content="Cooper Pellaton" />
     <meta name="copyright" content="&copy; Copyright 2015 to Present" />
     <link type="text/plain" rel="author" href="/humans.txt" />
@@ -18,8 +23,8 @@
     <meta name="twitter:site" content="@c__p_r">
     <meta name="twitter:creator" content="@c__p_r">
     <meta name="twitter:url" content="https://cepp.ch">
-    <meta name="twitter:title" content="The casual insanity and paranoia of Cooper Pellaton as he navigates that unnavigable web.">
-    <meta name="twitter:description" content="cepp.ch is a blog about the casual insanity and paranoia of Cooper Pellaton as he navigates that unnavigable web..">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <!-- <meta name="twitter:description" content="cepp.ch is a blog about the casual insanity and paranoia of Cooper Pellaton as he navigates that unnavigable web.."> -->
     <!--End entry to try and increase SEO.-->
     <!-- Mobile features -->
     <link rel="apple-touch-startup-image" href="/images/cepp_modified.png">
@@ -43,39 +48,49 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
-<body class="markdown-body">
+<body class="blog-body">
     <div class="content">
-        {{ content }}
+        <div class="container content">
+                <div class="home-header">
+                    <h1 class="home-name"> <a rel="nofollow" href="/blog.html" class="emphasis">{{ page.title }}</a></h1>
+                    <h5 style="margin-top:0rem">{{ page.date | date_to_long_string }}</h5>
+                </div>
+                <i><p style="font-family:'Signika', sans-serif;">{{ page.lyric }}
+                    <br> {{ page.artist }} <a rel="nofollow" href=" {{page.genius_link}} " target="_blank" class="emphasis"> {{ page.song }}</a></p></i>
+            {{ content }}
+            </div>
     </div>
-    <div>
+    <!-- <div>
         <div id="disqus_thread"></div>
         <script>
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document,
-                s = d.createElement('script');
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
 
-            s.src = '//ceppch.disqus.com/embed.js';
+                s.src = '//ceppch.disqus.com/embed.js';
 
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "name": "Cooper Pellaton",
-            "url": "http://cepp.ch/"
-        }
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "name": "Cooper Pellaton",
+                "url": "http://cepp.ch/"
+            }
         </script>
-    </div>
+    </div> -->
     <script>
-    ! function(e, a, t, n, c, o, s) {
-        e.GoogleAnalyticsObject = c, e[c] = e[c] || function() {
-            (e[c].q = e[c].q || []).push(arguments)
-        }, e[c].l = 1 * new Date, o = a.createElement(t), s = a.getElementsByTagName(t)[0], o.async = 1, o.src = n, s.parentNode.insertBefore(o, s)
-    }(window, document, "script", "//www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-49039366-1", "auto"), ga("send", "pageview");
+        ! function (e, a, t, n, c, o, s) {
+            e.GoogleAnalyticsObject = c, e[c] = e[c] || function () {
+                    (e[c].q = e[c].q || []).push(arguments)
+                }, e[c].l = 1 * new Date, o = a.createElement(t), s = a.getElementsByTagName(t)[0], o.async = 1, o.src =
+                n, s.parentNode.insertBefore(o, s)
+        }(window, document, "script", "//www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-49039366-1",
+            "auto"), ga("send", "pageview");
     </script>
     <script id="dsq-count-scr" src="//ceppch.disqus.com/count.js" async></script>
 </body>
