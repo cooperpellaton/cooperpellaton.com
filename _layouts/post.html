@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="//algorithmia.com/assets/stylesheets/recommends.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <!-- The title font. -->
+    <link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700" rel="stylesheet">
     <!-- The post font. -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
     <!-- The lyric font. -->
-    <link href="https://fonts.googleapis.com/css?family=Signika:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600i" rel="stylesheet">
     <meta name="author" content="Cooper Pellaton" />
     <meta name="copyright" content="&copy; Copyright 2015 to Present" />
     <link type="text/plain" rel="author" href="/humans.txt" />
@@ -51,38 +53,39 @@
 <body class="blog-body">
     <div class="content">
         <div class="container content">
-                <div class="home-header">
-                    <h1 class="home-name"> <a rel="nofollow" href="/blog.html" class="emphasis">{{ page.title }}</a></h1>
-                    <h5 style="margin-top:0rem">{{ page.date | date_to_long_string }}</h5>
-                </div>
-                <i><p style="font-family:'Signika', sans-serif;">{{ page.lyric }}
-                    <br> {{ page.artist }} <a rel="nofollow" href=" {{page.genius_link}} " target="_blank" class="emphasis"> {{ page.song }}</a></p></i>
-            {{ content }}
+            <!-- Article header with music. -->
+            <div class="home-header">
+                <h1 class="home-name"> <a rel="nofollow" href="/blog.html" class="emphasis" style="font-family:'Neuton'">{{ page.title }}</a></h1>
+                <h5 style="font-family:'Neuton', serif; margin-top:0rem">{{ page.date | date_to_long_string }}</h5>
             </div>
+            <i><p style="font-family:'Neuton', serif;">{{ page.lyric }}
+                    <br> {{ page.artist }} <a rel="nofollow" href=" {{page.genius_link}} " target="_blank" class="emphasis"> {{ page.song }}</a></p></i>
+            <!-- Actual content. -->
+            {{ content }}
+            <!-- Disqus comments below. -->
+            <div id="disqus_thread"></div>
+            <script>
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document,
+                        s = d.createElement('script');
+
+                    s.src = '//ceppch.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            <script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "WebSite",
+                    "name": "Cooper Pellaton",
+                    "url": "http://cepp.ch/"
+                }
+            </script>
+        </div>
     </div>
-    <!-- <div>
-        <div id="disqus_thread"></div>
-        <script>
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document,
-                    s = d.createElement('script');
-
-                s.src = '//ceppch.disqus.com/embed.js';
-
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-        <script type="application/ld+json">
-            {
-                "@context": "http://schema.org",
-                "@type": "WebSite",
-                "name": "Cooper Pellaton",
-                "url": "http://cepp.ch/"
-            }
-        </script>
-    </div> -->
     <script>
         ! function (e, a, t, n, c, o, s) {
             e.GoogleAnalyticsObject = c, e[c] = e[c] || function () {
