@@ -48,15 +48,18 @@
     <link rel="icon" href="/images/cepp_modified.png" type="image/png" />
     <link rel="shortcut icon" href="/images/cepp_modified.png">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/reading-indicator.js"></script>
 </head>
 
 <body class="blog-body">
+    <progress value="0"></progress>
     <div class="content">
         <div class="container content">
             <!-- Article header with music. -->
             <div class="home-header">
-                <h1 class="home-name"> <a rel="nofollow" href="/blog.html" class="emphasis" style="font-family:'Neuton'">{{ page.title }}</a></h1>
-                <h5 style="font-family:'Neuton', serif; margin-top:0rem">{{ page.date | date_to_long_string }}</h5>
+                <h1 class="blog-body"> <a rel="nofollow" href="/blog.html" class="emphasis">{{ page.title }}</a></h1>
+                <h5 style="font-family:'VeronaSerial', serif; margin-top:0rem">{{ page.date | date_to_long_string }}</h5>
             </div>
             <i><p style="font-family:'Neuton', serif;">{{ page.lyric }}
                     <br> {{ page.artist }} <a rel="nofollow" href=" {{page.genius_link}} " target="_blank" class="emphasis"> {{ page.song }}</a></p></i>
