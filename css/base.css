@@ -1,4 +1,4 @@
-    .footnote-link,
+.footnote-link,
 .highlight .cm,
 .highlight .ge,
 .highlight .sd {
@@ -633,15 +633,3 @@ a:hover {
 .post {
     margin-bottom: 1.5em
 }
-
-.page-header,
-.post-header {
-    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    margin-bottom: 1em
-}
-
-.page-content,
-.post-content {
-    font-family: 'Droid
- Serif',serif;line-height:1.65}.footnote-anchor{font-weight:700}#related-posts h3{margin-top:0;float:left}#related-posts span.twitter-button{float:right}.algorithmia-recommends li:nth-child(n+4){display:none}#archive-table ul{margin-bottom:0}.prep-problem-title{margin-bottom:.1em}
