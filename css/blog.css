@@ -11,6 +11,14 @@
     padding: 0
 }
 
+.footnotes {
+    color: #333;
+    font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 .blog-body {
     -webkit-text-size-adjust: 100%;
     color: #333;
