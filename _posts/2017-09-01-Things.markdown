@@ -7,6 +7,7 @@ So tired of the real world now."
 artist: — Shaun Frank,
 genius_link: https://soundcloud.com/shaunfrank/shaun-frank-upsidedown
 song: Upsidedown
+permalink: /blog/things.html
 ---
 When I moved back to the US this August I filled an *entire* car with boxes, bags, and other miscellaneous items. While unpacking I said, out-loud, to myself: “Do I really have another pair of pants?”[^1] That was my wakeup call.
 
