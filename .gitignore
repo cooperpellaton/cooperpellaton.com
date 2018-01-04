@@ -2,3 +2,12 @@ _cache
 _site
 s3_website.yml
 .DS_Store
+.vscode
+Gemfile.lock
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+*.gem
+*.swp
+*~
+.bundle/

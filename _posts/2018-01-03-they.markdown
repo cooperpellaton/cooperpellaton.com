@@ -1,0 +1,42 @@
+--- 
+layout: post 
+title: They
+date: 2018-01-03 
+lyric: "You're bulletproof, ain't no getting to you \\
+I can't break through, anything that I do \\
+It's like I'm playing to lose"
+artist: — Lemaitre,
+genius_link: https://genius.com/Lemaitre-playing-to-lose-lyrics
+song: Playing To Lose
+permalink: /blog/they.html
+---
+On the prevalence of **they**.
+
+A year ago, or maybe more, I read an [article](https://www.newyorker.com/books/page-turner/what-part-of-no-totally-dont-you-understand) in *The New Yorker* about the transformation of “no” in the English language. In summary — no has gone from its true meaning — “~~**No**~~~~, I don’t want to eat that broccoli rabe.~~” — to instead mean yes. 
+
+The effect of that article on me was profound. 
+
+That was the first time I’d thought of language as a malleable construct. Obviously, language can be contorted, smoothed, and polished, but for a word to *literally* become its antithesis (yes, pun intended) was a revelation for me.
+
+So, in thinking about this transformation of language I began to think more about patterns and usages. Too often I feel like the words just pour out of my mouth without prior thought or decision, but when I exercise a degree of forethought about my speech, the impact of the patterns and word choice are much more profound.
+
+That’s when it hit me.
+
+So often in everyday life we fill a space with another word that doesn’t mean what it is defined to be. It’s *they*.
+
+I remember, unaware of the significance, my questioning of this construct in 7th grade in my math class. My teacher, standing at the front of the room, had noted that on my exam *they* might ask us to solve a problem like this. Although I’m not sure why I raised my hand and asked “Who’s *they*? Who is this *they* that will ask us a question on the exam?”. She took a minute and then responded with something along the lines of “*They* is me. I’m not sure why I said *they* but I’ll be the one writing and proctoring the exam so it’s me that will be asking you the question.”
+
+That’s both the first occurrence I can remember, and the only time in my memory that I ever asked, and caught this hiccup, dark pattern, of the English language. Now, after that first instance I notice its use in my life more and more often. It can be in math class when the instructor talks about what might be on the next quiz or exam. It can be in my digital design class where my TA may say “they might ask you to produce something to these qualifications…” or it can be in my computer architecture class where we talk about this “they” working on some future improvements we can’t yet understand, or comprehend.
+
+The human mind likes abstractions. In writing we use analogies, similes, hyperbole, etc. All of these are a form of rhetoric, one that serves to make truth more easily palatable and in practice, the use of rhetoric makes language more approachable, more comprehensible. To describe size in relative terms, and to use similes to make situations and objects understandable to a not-so-engaged reader… Although these things seem “abstract” as per their classification they are instead things that we can very much identify with. These abstractions form the basis of our writing, and language. Similarly, it is the appreciation of these abstractions that make us appreciate and define certain writing as masterful.
+
+So I’ve come to realize that we use “they” as an abstraction.
+
+Sometimes it’s because the answer would be awkward, or needlessly specific. When a math professor states that this elusive *they* will have input on the format of the exam, he simply means he’s going to write it how he sees fit. We all intuitively understand the context in which this statement is being made, and most likely would understand it without this vague abstraction, but we insert it to make it easier for ourselves. Rather than implicate ourselves, to open up to criticism, questioning, or another form of exposure, we delegate the unpleasant parts of language and life to an unknown and uninteresting third party.
+
+To avoid the specifics, to make a situation more comprehensible, at the ironic cost of understanding, is the root of this conundrum. 
+
+So, just as “no” has actually come to mean “yes”, I reckon that “they” is now analogous to “I” **and** seemingly no-one. We use it to make ourselves more comfortable. To fill the silences in speech that only the inexperienced and informal glance over and to diffuse the otherwise questionable situations. 
+
+So there’s my rant on **they**. This has been something that’s plagued my mind for a while — my watching of the usage patterns of *they* has made me paranoid about the clarity of my own speech.
+If just one more person could see this use of an abstraction in the same way I do, I would be happy.
