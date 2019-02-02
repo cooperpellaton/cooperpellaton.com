@@ -16,7 +16,20 @@ title: Cooper Pellaton
 </section>
 
 <section>
-	<h2>Online</h2>
+    <h2>Here</h2>
+	<p>If you want to know more about me, take a moment to check out my resume, readings, or essay collection.</p>
+	<ul>
+		<li><span><a href="/files/Cooper-Pellaton_Resume_Rev_119.pdf">resume</a></span></li>
+		<li><span><a href="/bookshelf.html">reading</a></span></li>
+		<li><span><a href="/blog.html">essays</a></span>
+			/{% for post in site.posts limit:1 %}
+			<span><a href="{{ post.url }}"><i>latest writing</i></a></span>
+			{% endfor %}
+		</li>
+
+
+	</ul>
+	<h2>There</h2>
 	<table class="home-nav">
 		<tr class="home-nav-section">
 			<td class="home-nav-secondary">
@@ -33,17 +46,4 @@ title: Cooper Pellaton
 		</tr>
 		</tr>
 	</table>
-	<h2>Here</h2>
-	<p>If you want to know more about me, take a moment to check out my resume, readings, or essay collection.</p>
-	<ul>
-		<li><span><a href="/files/Cooper-Pellaton_Resume_Rev_119.pdf">resume</a></span></li>
-		<li><span><a href="/bookshelf.html">reading</a></span></li>
-		<li><span><a href="/blog.html">essays</a></span>
-			/{% for post in site.posts limit:1 %}
-			<span><a href="{{ post.url }}"><i>latest writing</i></a></span>
-			{% endfor %}
-		</li>
-
-
-	</ul>
 </section>
