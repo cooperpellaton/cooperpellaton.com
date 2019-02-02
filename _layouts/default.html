@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -13,13 +13,28 @@
     <!-- Base Font. -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
-    <!-- <link rel="stylesheet" href="css/markdown.css"> -->
-    <link rel="stylesheet" href="//algorithmia.com/assets/stylesheets/recommends.css">
+
     <style>
+        @font-face {
+            font-family: 'VeronaSerial';
+            src: url('../fonts/348044_0_0.eot');
+            src: url('../fonts/348044_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/348044_0_0.woff2') format('woff2'), url('../fonts/348044_0_0.woff') format('woff'), url('../fonts/348044_0_0.ttf') format('truetype');
+        }
+
+        @media (min-width: 800px) {
+            body {
+                margin: 2em;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 4em;
+                max-width: 70em;
+            }
+        }
+
         .container {
             margin-top: 15%;
             margin-left: 8%;
-            max-width: 28rem
+            max-width: 50rem
         }
 
         table,
@@ -39,6 +54,17 @@
         tbody tr:nth-child(odd) td,
         tbody tr:nth-child(odd) th {
             background-color: inherit
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: "VeronaSerial", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            margin-top: 0rem
+        }
+
+        h2,
+        p {
+            font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         }
 
         .home-name {
@@ -72,6 +98,7 @@
         }
 
         .home-nav-secondary {
+            font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             opacity: 0.8
         }
 
@@ -108,7 +135,6 @@
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic" rel="stylesheet" type="text/css">
     <meta name="description" content="{{ site.description }}" />
     <meta name="author" content="Cooper Pellaton" />
     <meta name="copyright" content="&copy; Copyright 2015 to Present" />
@@ -129,7 +155,8 @@
     <link rel="icon" sizes="192x192" href="/images/Sketch_Big.jpeg">
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" <meta name="apple-mobile-web-app-title" content="TITLE">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" <meta name="apple-mobile-web-app-title"
+        content="TITLE">
     <link rel="apple-touch-icon-precomposed" href="/images/Sketch_Big.jpeg">
     <!-- Tile icon for Windows 10 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="/images/Sketch_Big.jpeg">
@@ -140,37 +167,14 @@
     <meta name="theme-color" content="#778899">
     <link rel="icon" href="/images/Sketch_Big.jpeg" type="image/png" />
     <link rel="shortcut icon" href="/images/Sketch_Big.jpeg">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <title>Cooper Pellaton</title>
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i" rel="stylesheet">
 </head>
 
-<body class="markdown-body">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Cooper Pellaton",
-            "url": "https://cepp.ch/"
-        }
-    </script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+<body class="container">
 
-        ga('create', 'UA-49039366-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <div class="content">
-        {{ content }}
-    </div>
+    {{ content }}
 </body>
 
 </html>

@@ -2,41 +2,48 @@
 layout: default
 title: Cooper Pellaton
 ---
-<div class="container content" id="container">
-    <div class="home-header">
-        <h1 class="home-name">Cooper Pellaton</h1>
-        <div class="home-subtitle">Student at <a rel="nofollow" href="http://www.gatech.edu/" target="_blank" class="emphasis">Georgia Tech.</a></div>
-        <div class="home-subtitle">Research Assistant in the <a rel="nofollow" href="http://wheelerlab.gatech.edu//" target="_blank" class="emphasis">Wheeler Laboratory.</a></div>
-        <div class="home-subtitle">Former Chief Scientist at <a rel="nofollow" href="http://videojj.com/" target="_blank" class="emphasis">Video<sup>++</sup>.</a> S16 at <a rel="nofollow" href="http://www.cigna.com/" target="_blank" class="emphasis">Cigna SE&I.</a> S18 at <a rel="nofollow" href="https://damo.alibaba.com/labs/data-analytics-and-intelligence" target="_blank" class="emphasis">Alibaba DAIL.</a></div>
-    </div>
-    <table class="home-nav">
-        <tr class="home-nav-section">
-            <td class="home-nav-primary"><a href="/about.html">about</a></td>
-            <td class="home-nav-secondary">
-                <span><a href="/files/Cooper-Pellaton_Resume_Rev_119.pdf">resume</a></span>
-                <span><a rel="nofollow" href="https://www.linkedin.com/in/cooperpellaton">linkedin</a></span>
-                <span><a href="/bookshelf.html">reading</a></span>
-                <span><a href="https://conquer.earth/cooper">travel</a></span>
-            </td>
-        </tr>
-        <tr class="home-nav-section">
-            <td class="home-nav-primary">
-                <a href="/blog.html">words</a></td>
-            <td class="home-nav-secondary">
-                {% for post in site.posts limit:1 %}
-                    <span><a href="{{ post.url }}">latest</a></span>
-                {% endfor %}
-                <span><a rel="nofollow" href="https://github.com/cooperpellaton">code</a></span>
-            </td>
-        </tr>
-        <tr class="home-nav-section">
-            <td class="home-nav-primary">
-                <a href="mailto:c@cepp.ch">contact</a></td>
-            <td class="home-nav-secondary">
-                <span><a rel="nofollow" href="https://twitter.com/WBINVD">twitter</a></span>
-                <span><a rel="nofollow" href="pgp.txt">PGP key</a></span>
-                <span><a rel="nofollow" href="https://keybase.io/cooper">keybase</a></span>
-            </td>
-        </tr>
-    </table>
-</div>
+<section>
+	<h1 class="home-name">Cooper Pellaton</h1>
+
+	<p>I am Swiss 🇨🇭 and I like computers and mathematics.</p>
+	<p>Currently, I'm a student at <a rel="nofollow" href="http://www.gatech.edu/" target="_blank" class="emphasis">Georgia
+			Tech</a> and a Research Assistant in the <a rel="nofollow" href="http://wheelerlab.gatech.edu//" target="_blank"
+		 class="emphasis">Wheeler Laboratory</a>. Previously I've been at <a rel="nofollow" href="http://www.cigna.com/"
+		 target="_blank" class="emphasis">Cigna SE&I</a> (S16), <a rel="nofollow" href="https://damo.alibaba.com/labs/data-analytics-and-intelligence"
+		 target="_blank" class="emphasis">Alibaba DAIL</a> (S18) and former Chief Scientist at <a rel="nofollow" href="http://videojj.com/"
+		 target="_blank" class="emphasis">Video<sup>++</sup></a>.</p>
+	<p>I'm quite interested in AI Ethics, fairness, and distributed compute & machine learning. I  enjoy cycling, pens, stationary, and rabbits. Before moving to Atlanta I was a nationally acclaimed rower and sailor.</p>
+</section>
+
+<section>
+	<h2>Online</h2>
+	<table class="home-nav">
+		<tr class="home-nav-section">
+			<td class="home-nav-secondary">
+				<span><a rel="nofollow" href="https://www.linkedin.com/in/cooperpellaton">linkedin</a></span>
+				<span><a rel="nofollow" href="https://github.com/cooperpellaton">code</a></span>
+				<span><a href="https://conquer.earth/cooper">travel</a></span>
+				<span><a rel="nofollow" href="https://twitter.com/WBINVD">twitter</a></span>
+			</td>
+		<tr class="home-nav-section">
+			<td class="home-nav-secondary">
+				<span><a rel="nofollow" href="pgp.txt">PGP key</a></span>
+				<span><a rel="nofollow" href="https://keybase.io/cooper">keybase</a></span>
+			</td>
+		</tr>
+		</tr>
+	</table>
+	<h2>Here</h2>
+	<p>If you want to know more about me, take a moment to check out my resume, readings, or essay collection.</p>
+	<ul>
+		<li><span><a href="/files/Cooper-Pellaton_Resume_Rev_119.pdf">resume</a></span></li>
+		<li><span><a href="/bookshelf.html">reading</a></span></li>
+		<li><span><a href="/blog.html">essays</a></span>
+			/{% for post in site.posts limit:1 %}
+			<span><a href="{{ post.url }}"><i>latest writing</i></a></span>
+			{% endfor %}
+		</li>
+
+
+	</ul>
+</section>
