@@ -1,97 +1,158 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <meta charset="utf-8">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta charset="utf-8" />
     <title>{{page.title}}</title>
-    <link rel="stylesheet" href="../../../css/base.css">
-    <link rel="stylesheet" href="../../../css/blog.css">
+    <link rel="stylesheet" href="../../../css/base.css" />
+    <link rel="stylesheet" href="../../../css/blog.css" />
     <!-- <link rel="stylesheet" href="/css/markdown.css"> -->
-    <link rel="stylesheet" href="//algorithmia.com/assets/stylesheets/recommends.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <link
+      rel="stylesheet"
+      href="//algorithmia.com/assets/stylesheets/recommends.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:700,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- The title font. -->
-    <link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700"
+      rel="stylesheet"
+    />
     <!-- The post font. -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i"
+      rel="stylesheet"
+    />
     <!-- The lyric font. -->
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600i" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text:600i"
+      rel="stylesheet"
+    />
     <meta name="author" content="Cooper Pellaton" />
     <meta name="copyright" content="&copy; Copyright 2015 to Present" />
     <link type="text/plain" rel="author" href="/humans.txt" />
     <link rel="canonical" href="https://cepp.ch/" />
     <!-- Twitter cards for blog posts.. -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@c__p_r">
-    <meta name="twitter:creator" content="@c__p_r">
-    <meta name="twitter:url" content="https://cepp.ch">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@c__p_r" />
+    <meta name="twitter:creator" content="@c__p_r" />
+    <meta name="twitter:url" content="https://cepp.ch" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.description }}" />
     <meta name=”twitter:image” content=”/images/Sketch_Color_Small.png” />
     <!--End entry to try and increase SEO.-->
     <!-- Mobile features -->
-    <link rel="apple-touch-startup-image" href="/images/Sketch_Big.jpeg">
-    <link rel="icon" type="image/png" href="/images/Sketch_Big.jpeg">
-    <link rel="apple-touch-icon" type="image/png" href="/images/Sketch_Big.jpeg">
-    <link rel="icon" sizes="144x144" href="/images/Sketch_Big.jpeg">
-    <link rel="icon" sizes="192x192" href="/images/Sketch_Big.jpeg">
+    <link rel="apple-touch-startup-image" href="/images/Sketch_Big.jpeg" />
+    <link rel="icon" type="image/png" href="/images/Sketch_Big.jpeg" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="/images/Sketch_Big.jpeg"
+    />
+    <link rel="icon" sizes="144x144" href="/images/Sketch_Big.jpeg" />
+    <link rel="icon" sizes="192x192" href="/images/Sketch_Big.jpeg" />
     <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" <meta name="apple-mobile-web-app-title" content="TITLE">
-    <link rel="apple-touch-icon-precomposed" href="/images/Sketch_Big.jpeg">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+      <meta
+      name="apple-mobile-web-app-title"
+      content="TITLE"
+    />
+    <link rel="apple-touch-icon-precomposed" href="/images/Sketch_Big.jpeg" />
     <!-- Tile icon for Windows 10 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/Sketch_Big.jpeg">
-    <meta name="msapplication-square310x310logo" content="/images/Sketch_Big.jpeg">
-    <meta name="msapplication-TileColor" content="#3372DF">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#778899">
+    <meta name="msapplication-TileImage" content="/images/Sketch_Big.jpeg" />
+    <meta
+      name="msapplication-square310x310logo"
+      content="/images/Sketch_Big.jpeg"
+    />
+    <meta name="msapplication-TileColor" content="#3372DF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#778899" />
     <link rel="icon" href="/images/Sketch_Big.jpeg" type="image/png" />
-    <link rel="shortcut icon" href="/images/Sketch_Big.jpeg">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <link rel="shortcut icon" href="/images/Sketch_Big.jpeg" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/js/reading-indicator.js"></script>
-</head>
+  </head>
 
-<body class="blog-body">
+  <body class="blog-body">
     <progress value="0"></progress>
-    <div class="content">
-        <div class="container content">
-            <!-- Article header with music. -->
-            <div class="home-header">
-                <h1 class="blog-body"> <a rel="nofollow" href="/blog.html" class="emphasis">{{ page.title }}</a></h1>
-                <h5 style="font-family:'VeronaSerial', serif; margin-top:0rem">{{ page.date | date_to_long_string }}</h5>
-            </div>
-            <i><p style="font-family:'Neuton', serif;">{{ page.lyric }}
-                    <br> {{ page.artist }} <a rel="nofollow" href=" {{page.genius_link}} " target="_blank" class="emphasis"> {{ page.song }}</a></p></i>
-            <!-- Actual content. -->
-            {{ content }}
-            <!-- Disqus comments below. -->
-            <div id="disqus_thread"></div>
-            <script>
-                (function () { // DON'T EDIT BELOW THIS LINE
-                    var d = document,
-                        s = d.createElement('script');
-
-                    s.src = '//ceppch.disqus.com/embed.js';
-
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-            <script type="application/ld+json">
-                {
-                    "@context": "http://schema.org",
-                    "@type": "WebSite",
-                    "name": "Cooper Pellaton",
-                    "url": "http://cepp.ch/"
-                }
-            </script>
+    <div class="container content">
+        <div>
+        <!-- Article header with music. -->
+        <div class="home-header">
+          <h1 class="blog-body">
+            <a rel="nofollow" href="/blog.html" class="emphasis"
+              >{{ page.title }}</a
+            >
+          </h1>
+          <h5 style="font-family: 'VeronaSerial', serif; margin-top: 0rem;">
+            {{ page.date | date_to_long_string }}
+          </h5>
         </div>
-    </div>
-    <script id="dsq-count-scr" src="//ceppch.disqus.com/count.js" async></script>
-</body>
+        <i
+          ><p style="font-family: 'Neuton', serif;">
+            {{ page.lyric }} <br />
+            {{ page.artist }}
+            <a
+              rel="nofollow"
+              href=" {{page.genius_link}} "
+              target="_blank"
+              class="emphasis"
+            >
+              {{ page.song }}</a
+            >
+          </p></i
+        >
+        <!-- Actual content. -->
+        {{ content }}
+        <!-- Disqus comments below. -->
+        <div id="disqus_thread"></div>
+        <script>
+          (function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement("script");
 
+            s.src = "//ceppch.disqus.com/embed.js";
+
+            s.setAttribute("data-timestamp", +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript" rel="nofollow"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+        <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooper Pellaton",
+            "url": "http://cepp.ch/"
+          }
+        </script>
+      </div>
+    </div>
+    <script
+      id="dsq-count-scr"
+      src="//ceppch.disqus.com/count.js"
+      async
+    ></script>
+  </body>
 </html>

@@ -643,3 +643,10 @@
     display: block;
     height: inherit;
   }
+        
+
+        .container {
+            margin-top: 5%;
+            margin-left: 10%;
+            margin-right: 25%;
+        }
