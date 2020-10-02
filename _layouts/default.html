@@ -1,208 +1,152 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <title>{{page.title}}</title>
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display"
-      rel="stylesheet"
-    />
-    <!-- Header Font. -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Domine:400,700"
-      rel="stylesheet"
-    />
-    <!-- Base Font. -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/base.css" />
 
-    <style>
-      @font-face {
-        font-family: "VeronaSerial";
-        src: url("../fonts/348044_0_0.eot");
-        src: url("../fonts/348044_0_0.eot?#iefix") format("embedded-opentype"),
-          url("../fonts/348044_0_0.woff2") format("woff2"),
-          url("../fonts/348044_0_0.woff") format("woff"),
-          url("../fonts/348044_0_0.ttf") format("truetype");
-      }
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <title>{{page.title}}</title>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" />
+  <!-- Header Font. -->
+  <link href="https://fonts.googleapis.com/css?family=Domine:400,700" rel="stylesheet" />
+  <!-- Base Font. -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600" rel="stylesheet" />
+  <link rel="stylesheet" href="css/base.css" />
+  <style>
+    @font-face {
+      font-family: "VeronaSerial";
+      src: url("../fonts/348044_0_0.eot");
+      src: url("../fonts/348044_0_0.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/348044_0_0.woff2") format("woff2"),
+        url("../fonts/348044_0_0.woff") format("woff"),
+        url("../fonts/348044_0_0.ttf") format("truetype");
+    }
 
-      .container {
-        margin-top: 20%;
-        margin-left: 15%;
-        margin-right: 20%;
-      }
+    .container {
+      margin-top: 20%;
+      margin-left: 15%;
+      margin-right: 20%;
+    }
 
-      table,
-      caption,
-      tbody,
-      tfoot,
-      thead,
-      tr,
-      th,
-      td {
-        border: 0;
-        outline: 0;
-        vertical-align: baseline;
-        background: transparent;
-      }
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td {
+      border: 0;
+      outline: 0;
+      vertical-align: baseline;
+      background: transparent;
+    }
 
-      tbody tr:nth-child(odd) td,
-      tbody tr:nth-child(odd) th {
-        background-color: inherit;
-      }
+    tbody tr:nth-child(odd) td,
+    tbody tr:nth-child(odd) th {
+      background-color: inherit;
+    }
 
-      h1 {
-        font-size: 50px;
-        font-family: "VeronaSerial", serif, "Apple Color Emoji",
-          "Segoe UI Emoji", "Segoe UI Symbol";
-        margin-top: 0rem;
-      }
+    h1 {
+      font-size: 50px;
+      font-family: "VeronaSerial", serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol";
+      margin-top: 0rem;
+    }
 
-      h2,
-      p {
-        font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji",
-          "Segoe UI Symbol";
-      }
+    h2,
+    p {
+      font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    }
 
-      .home-name {
-        margin-bottom: 0.2rem;
-      }
+    .home-name {
+      margin-bottom: 0.2rem;
+    }
 
-      .home-subtitle {
-        color: #757575;
-      }
+    .home-subtitle {
+      color: #757575;
+    }
 
-      .home-subtitle a {
-        color: inherit;
-        font-family: "Open Sans", sans-serif;
-      }
+    .home-subtitle a {
+      color: inherit;
+      font-family: "Open Sans", sans-serif;
+    }
 
-      .home-header {
-        margin-bottom: 0.3rem;
-        font-family: "Open Sans", sans-serif;
-      }
+    .home-header {
+      margin-bottom: 0.3rem;
+      font-family: "Open Sans", sans-serif;
+    }
 
-      .home-nav {
-        font-family: "Open Sans", sans-serif;
-        max-width: 26rem;
-      }
+    .home-nav {
+      font-family: "Open Sans", sans-serif;
+      max-width: 26rem;
+    }
 
-      .home-nav td {
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-      }
+    .home-nav td {
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+    }
 
-      .home-nav-secondary {
-        font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji",
-          "Segoe UI Symbol";
-        opacity: 0.8;
-      }
+    .home-nav-secondary {
+      font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+      opacity: 0.8;
+    }
 
-      .home-nav-secondary a {
-        color: #4b86b0;
-      }
+    .home-nav-secondary a {
+      color: #4b86b0;
+    }
 
-      .home-nav-secondary span:after {
-        content: " /";
-        color: #c0c0c0;
-      }
+    .home-nav-secondary span:after {
+      content: " /";
+      color: #c0c0c0;
+    }
 
-      .home-nav-secondary span:last-of-type:after {
-        content: "";
-      }
-    </style>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:700,400"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <meta name="description" content="{{ site.description }}" />
-    <meta name="author" content="Cooper Pellaton" />
-    <meta name="copyright" content="&copy; Copyright 2015 to Present" />
-    <link type="text/plain" rel="author" href="/humans.txt" />
-    <link rel="canonical" href="https://cepp.ch/" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="{{ site.twitter_username }}" />
-    <meta name="twitter:creator" content="{{ site.twitter_username }}" />
-    <meta name="twitter:url" content="https://cepp.ch" />
-    <meta
-      name="twitter:title"
-      content="{{ site.title }}"
-    />
-    <meta name="twitter:description" content="{{ site.description }}" />
-    <!--End entry to try and increase SEO.-->
-    <!-- Mobile features -->
-    <link rel="apple-touch-startup-image" href="/images/Sketch_Big.jpeg" />
-    <link rel="icon" type="image/png" href="/images/Sketch_Big.jpeg" />
-    <link
-      rel="apple-touch-icon"
-      type="image/png"
-      href="/images/Sketch_Big.jpeg"
-    />
-    <link rel="icon" sizes="144x144" href="/images/Sketch_Big.jpeg" />
-    <link rel="icon" sizes="192x192" href="/images/Sketch_Big.jpeg" />
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-      <meta
-      name="apple-mobile-web-app-title"
-      content="TITLE"
-    />
-    <link rel="apple-touch-icon-precomposed" href="/images/Sketch_Big.jpeg" />
-    <!-- Tile icon for Windows 10 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/Sketch_Big.jpeg" />
-    <meta
-      name="msapplication-square310x310logo"
-      content="/images/Sketch_Big.jpeg"
-    />
-    <meta name="msapplication-TileColor" content="#3372DF" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="theme-color" content="#778899" />
-    <link rel="icon" href="/images/Sketch_Big.jpeg" type="image/png" />
-    <link rel="shortcut icon" href="/images/Sketch_Big.jpeg" />
-    <title>Cooper Pellaton</title>
-    <link
-      rel="apple-touch-icon-precomposed"
-      href="apple-touch-icon-precomposed.png"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i"
-      rel="stylesheet"
-    />
-  </head>
+    .home-nav-secondary span:last-of-type:after {
+      content: "";
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet" type="text/css" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="author" content="Cooper Pellaton" />
+  <meta name="copyright" content="&copy; Copyright 2015 to Present" />
+  <link type="text/plain" rel="author" href="/humans.txt" />
+  <link rel="canonical" href="https://cepp.ch/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{ site.twitter_username }}" />
+  <meta name="twitter:creator" content="{{ site.twitter_username }}" />
+  <meta name="twitter:url" content="https://cepp.ch" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <!--End entry to try and increase SEO.-->
+  <!-- Mobile features -->
+  <link rel="apple-touch-startup-image" href="/images/Sketch_Big.jpeg" />
+  <link rel="icon" type="image/png" href="/images/Sketch_Big.jpeg" />
+  <link rel="apple-touch-icon" type="image/png" href="/images/Sketch_Big.jpeg" />
+  <link rel="icon" sizes="144x144" href="/images/Sketch_Big.jpeg" />
+  <link rel="icon" sizes="192x192" href="/images/Sketch_Big.jpeg" />
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" <meta name="apple-mobile-web-app-title"
+    content="TITLE" />
+  <link rel="apple-touch-icon-precomposed" href="/images/Sketch_Big.jpeg" />
+  <!-- Tile icon for Windows 10 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="/images/Sketch_Big.jpeg" />
+  <meta name="msapplication-square310x310logo" content="/images/Sketch_Big.jpeg" />
+  <meta name="msapplication-TileColor" content="#3372DF" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#778899" />
+  <link rel="icon" href="/images/Sketch_Big.jpeg" type="image/png" />
+  <link rel="shortcut icon" href="/images/Sketch_Big.jpeg" />
+  <title>Cooper Pellaton</title>
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i" rel="stylesheet" />
+</head>
 
-  <body class="container">
-    {{ content }}
+<body class="container">
+  {{ content }}
+</body>
 
-    <!--  Load Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
