@@ -666,6 +666,7 @@ a:hover {
     url("../fonts/348044_0_0.woff2") format("woff2"),
     url("../fonts/348044_0_0.woff") format("woff"),
     url("../fonts/348044_0_0.ttf") format("truetype");
+    font-display: swap;
 }
 
 table,
