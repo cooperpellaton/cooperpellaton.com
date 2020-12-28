@@ -189,6 +189,33 @@ pre code {
   background-color: transparent;
 }
 
+/* The core of our grid system. */
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+}
+@media screen and (min-width: 850px) {
+  .column {
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 40%;
+  }
+}
+
 .highlight {
   border-radius: 4px;
 }
@@ -668,7 +695,8 @@ h1 {
 }
 
 h2,
-p {
+p, 
+li {
   font-family: "Lato", serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
 }
@@ -720,4 +748,10 @@ p {
 
 .home-nav-secondary span:last-of-type:after {
   content: "";
+}
+
+#profile-image:hover:after {
+  content: url(../images/Shanghai_Bund_Distance.jpeg);
+  width: 75%;
+  display: block;
 }
