@@ -15,10 +15,9 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - name: install dependencies
-        run: bundle install
+          bundler-cache: true
       - name: build site
-        run: bundle exec build
+        run: bundle exec jekyll build
       - name: sync to S3
         uses: jakejarvis/s3-sync-action@master
         with:
