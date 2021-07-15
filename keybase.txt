@@ -1,0 +1,206 @@
+==================================================================
+https://keybase.io/cooper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cepp.at
+  * I am cooper (https://keybase.io/cooper) on keybase.
+  * I have a public key with fingerprint 3EC8 A3D0 B57C 0BB3 AB4E  5DD5 CF62 8B47 FAF1 B38B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010dcb6937d3d095078a9cc30e5b58974a1eb71f4c68ffb9872b88a57eff893cb40a",
+            "fingerprint": "3ec8a3d0b57c0bb3ab4e5dd5cf628b47faf1b38b",
+            "host": "keybase.io",
+            "key_id": "cf628b47faf1b38b",
+            "kid": "01010dcb6937d3d095078a9cc30e5b58974a1eb71f4c68ffb9872b88a57eff893cb40a",
+            "uid": "a62474ce2ddcdc93130c2acf580cc900",
+            "username": "cooper"
+        },
+        "service": {
+            "hostname": "cepp.at",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1449161704,
+    "expire_in": 157680000,
+    "prev": "8bbf0723e84ebee1723ae3d3ba6191f9723c68125748e4c4cd9ab751fb8ce4a9",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJbSBVBGD4nKy8kpaElBtlG9ZDVztnds7OHCn0pypLMLLrQcWZ2Vrdz
+2t12V48WEUSgBcmhCxikEZUJUkSlEQRlFAmBRpYaJV3wdMcIupAhNiv51mMzDzP/
+P9/3zff//PfSk3xp/vJOML3XLlrgf9gZr/JtLnfe7+OwqdZyoX1chI4fNKpSxw1H
+dJULcTxgWyU4qAiyKqi8IvEyRAohAk8lLEFFFhGgWAaaSIJQ07AC5QCGEEky1TSo
+CASLPOLyOU03Kqht2brhMlmBEoiYHJZkwmMsICxSSVUlogUDEIuyhjSABYgZsdJ0
+PAYzh5FDl+omy7EgPG7vH/j/7LtqXA4FA6IsEhpQVaISRQACTwKIaBLkCVF43gM6
+1DbQbuq5Mk2L2tz+fI7lqnVCvbZ6dUy8U8tailxGsmzTNYkZZclK17WckEdyay0P
+FaM4/JcfxrqhsgYyRjW1Hd00uBBgSOLqniAQRQUEgcyL+RytsXSbhnUPIclByLPl
+/UOrmSTEWOPlgEChSDGlgF0RFVQBoyBQgKawmHUDBCRZhFQkIlEVhGUJaBgSKiKF
+8yraY5hcCDKbqIJJOnqFgdwqm3L7797ZMdnnT/NNnTLJGyxfWuqMiXGLRJPHqqJv
+YyMlH0+f71kUy9k59KBz4FLOj09Pyy9eoTdqthXf/Py6+/cFLbN+oGHJO6F5tEYZ
+PdZdtmVai9l/dKQ0d2N65ImaXjwsDc9uKh/rSKq/mtfaPnvhLuvwiZ5l7nKwZnss
+9rLweFvht+aBLecyTp76FW/MSiR1rNiw/ujP0bsp76+19A8GP8zJTLw7klqQeBEl
+z3L2tjesa1rZVZay4+zXLzObQuBSf0btgq2X6+ZbPbMSHXmbsivqkg+svd6YUjBy
+7Pncovb7tw3DGIo8zvXr8eyutnnxeAYtbEiUXWn9nt1Xc2Zw8aiedXBb6areoZLV
+Vw/5hUezWuL8q6y+W28EJ/UPx3RD1A==
+=xkRa
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cooper
+
+==================================================================
+
+
+==================================================================
+https://keybase.io/cooper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cooperpellaton.com
+  * I am cooper (https://keybase.io/cooper) on keybase.
+  * I have a public key with fingerprint 3EC8 A3D0 B57C 0BB3 AB4E  5DD5 CF62 8B47 FAF1 B38B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010dcb6937d3d095078a9cc30e5b58974a1eb71f4c68ffb9872b88a57eff893cb40a",
+            "fingerprint": "3ec8a3d0b57c0bb3ab4e5dd5cf628b47faf1b38b",
+            "host": "keybase.io",
+            "key_id": "cf628b47faf1b38b",
+            "kid": "01010dcb6937d3d095078a9cc30e5b58974a1eb71f4c68ffb9872b88a57eff893cb40a",
+            "uid": "a62474ce2ddcdc93130c2acf580cc900",
+            "username": "cooper"
+        },
+        "service": {
+            "hostname": "cooperpellaton.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1449161808,
+    "expire_in": 157680000,
+    "prev": "24d8c3c7b224dbcc3d39fba27e7dc319a4ed0371994301002c43f21e0cc9e53a",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSBRRGF67WK2YmQplkjIgRZnNzJnZmbM9lCJUdsEu1EPlem6zDu7u
+rDPjlolBL4YIaQRBqZBGRIGQRUURZVYWaglli9lDBIJZERUU0QU6I/UQ9Ng5D+ec
+//+/73z/x38vfabPn1J1R8p4am8qTBm6017n21XlVjQI2KL1QrBBqGHTB4tQ5rih
+GpMKQUGU+KYEByDQKKAiVEVNR5AQIDIVqzrUFCQxrEmGQgK6YWCoazLWdaRqzDB0
+CAhWRCQUCYYZCzM7bpsxl9MCRnTE6bCqERFjgLDCVEpVYgRkHSuagQwJAx1zYLXl
+eAguDiOHFZsWj/FHaFreP+r/s+66aToUkBVNIUymlFACgQREIiNiqLpICBRFr9Bh
+dgxFmafKsuLMFhqLBB5LmIR5tnp9/JWPs0gEuVasmFhRjo/blmsRK8Lz1a4bd4Ie
+3q2Pe4D9DId+U4WwGaPcS45IMNsxrZgQlHglcU2PW1IUKAUkXdSLBHYgbtosZHoV
+qhbQRb68f1iCU8oK1QkgGpb5DXNfKIAGRrLGNEqABJHCqAg0CUIFcCtFmSjAkCXm
+9ctU4FnjsNqYJQQhl4nCnNIxwzHk1tlMaOzv2zvLl+L3pc6e4c2Yzz9vwZ/JWw3n
+/Mz5mH0SHaysx2mL/Ovamz5tP52c+kBG284OLpna5ms1V8zfPPmzx3x/fCCvMGvH
+rcqR8uaM+CWt63nrhf4CI3y4LS9FeAzkoc41TkeLTgbO7Pz2/Vnty20dV6Pk/pvM
+0Z7srqS0cPHdtNlXEtfA1zzXR3as2tPX3zSeNtGze+CR3LDv667c8zc/XEusmvzS
+nSOfytmT47yrWP/ccEdutRxaduXVxpEg7DyzsteXe2FDVn5J7uDcI3Bz6liyaeTG
+uehWuvzzg5LrS0vD3cNbMoaPlmW+b558mN5eMFiZzMa3x2uPvS5dWfuk98CSpROd
+3SfOlytFNybK1v54kX9x7PLbyPAv0vZByw==
+=gLgq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cooper
+
+==================================================================
+==================================================================
+https://keybase.io/cooper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cepp.ch
+  * I am cooper (https://keybase.io/cooper) on keybase.
+  * I have a public key with fingerprint 3EC8 A3D0 B57C 0BB3 AB4E  5DD5 CF62 8B47 FAF1 B38B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010dcb6937d3d095078a9cc30e5b58974a1eb71f4c68ffb9872b88a57eff893cb40a",
+            "fingerprint": "3ec8a3d0b57c0bb3ab4e5dd5cf628b47faf1b38b",
+            "host": "keybase.io",
+            "key_id": "cf628b47faf1b38b",
+            "kid": "01010dcb6937d3d095078a9cc30e5b58974a1eb71f4c68ffb9872b88a57eff893cb40a",
+            "uid": "a62474ce2ddcdc93130c2acf580cc900",
+            "username": "cooper"
+        },
+        "service": {
+            "hostname": "cepp.ch",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1449355747,
+    "expire_in": 157680000,
+    "prev": "2c03bbf4495a522fb5953e0a3c8eea5e629bfe3601053d70ec03afa1261037be",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIeAnicrZJtSBRBGMdPrySF0sAgiKK2jArzdnd29uWgN8IKokSsNDGumdnZu027
+3fbWS7HjjAorEgmhF1BJMLADCXv5EhFa6hfJ4AzqQ+CHDgIVDEqzkmxW6lsfm/kw
+zDP//2+e5+EZWun35WWdHhTyx53DRVmjgzfrfSeI+bGJw5beyAWbuFq6dNA6ncbc
+UK2pc0GOF9jWCZY1oOhA5zXIKyrSCAE8hRiqmiIhgWJFMCQiq4aBNVURsaoiqFDD
+UDVAsMQjrpgzzGiYOrZjRl2GBZSoiOEwVAiPMUBYolDXITFkUcWSYiBDwEDFzBix
+Yp6DJYdRjJaYFouxS2gpvX/o/3Pe9Us4JIuSIhEq6jrRiQYEwBMREQOqPCEaz3vC
+GHWi6Cz1srIsmzpcophjsbhJqNdWr46/79S2S0iEmWzHci1i1bFgxHXtWNAzuY22
+pzpPceiPP4TNqM4ayBxx6sRMK8oFBaYkrukBBUnSAISKpBRztME2HRoyPQVUZJVn
+y/uHxhlSJDzA2GByiKAoGhhqEFAeAaJSiiCVRQ0bFMisdxDoCk+ZHhlIEGWBBwqm
+nFfRuajF2AzqojBjxsxwFLn1DuUSLwdqlvmy8nw5y7O9yfLl5Rb8nbd9P1b4mnOm
+VzS9vj60+cY9tGxHqjLQGq5Lrn48fMbcOnFo+8CVQP++y+EGs3Oh5fv61mqA1t9K
+5d5Irzslb22e67s2VfjsfWZ4ITOal+gL905dTP9MV2yLpDuOH2vpuVA4U1bWO8LJ
+PT+r5jsz5bPJ4OL98YJdjzKFTyvcB82TuzE40LZq8PaaF5/eNW55s2HwQtR/qTuz
+P7XKrUz7Z7C1sn2oq+rbvH/8TrL2w5f8jYmAXNNQPdVfAjs2nYwfncj1ze4JFD1p
+Hfk1GX/llj5sewXOx69W3S3r6yjt/pxqO1ddPFn+dQ7tfLK26DnsPHnEHHqb7G4v
+nc4ekw4ugq699WOB37TeQRY=
+=ll9f
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cooper
+
+==================================================================
