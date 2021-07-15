@@ -19,8 +19,10 @@ description: > # this means to ignore newlines until "baseurl:"
   The personal musings of (the one and only) Cooper Pellaton.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cepp.ch"
-twitter_username: c__p_r
+twitter_username: WBINVD
 github_username:  cooperpellaton
+favicon: /images/Sketch_Color_Small.png
+theme-color: "#778899"
 
 # Build settings
 markdown: kramdown
