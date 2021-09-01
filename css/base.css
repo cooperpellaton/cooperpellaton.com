@@ -1,15 +1,11 @@
-html {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-
 body {
     color: #515151;
     background-color: #FFF;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     line-height: 1.2;
-    margin-top: 8px;
+    margin: 8px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -45,23 +41,15 @@ h3 {
     font-size: 1.25rem;
 }
 
-h4,
-h5,
-h6 {
-    font-size: 1rem;
-}
-
 p,
 ul,
-.home-nav-secondary {
+.nav-secondary {
     font-size: 12pt;
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
-
 /* The core of our grid system. */
-
 .flex-container {
     height: 100%;
     padding: 0;
@@ -80,13 +68,6 @@ ul,
     width: 100%;
 }
 
-img {
-    max-width: 100%;
-    margin: 0 0 1rem;
-    border-radius: 5px;
-    display: block;
-}
-
 a:hover {
     background-color: #ffefd5;
 }
@@ -98,17 +79,10 @@ a:hover {
     font-display: swap;
 }
 
-.home-nav-secondary span:after {
+.nav-secondary span:after {
     content: " /";
-    color: #c0c0c0;
 }
 
-.home-nav-secondary span:last-of-type:after {
+.nav-secondary span:last-of-type:after {
     content: "";
-}
-
-#profile-image:hover:after {
-    content: url(../images/Shanghai_Bund_Distance.jpeg);
-    width: 75%;
-    display: block;
 }

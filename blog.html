@@ -4,7 +4,7 @@ title: Cooper's Blog
 ---
 
 <div class="flex-container">
-  <div class="column">
+  <div class="row">
     <h1 class="home-name">
       <a rel="nofollow" href="/" class="emphasis">Cooper Pellaton</a>
     </h1>
@@ -14,11 +14,11 @@ title: Cooper's Blog
           href="http://quoteinvestigator.com/2012/04/28/shorter-letter/">*</a></sup>
     </p>
   </div>
-  <div class="column">
-    <table class="home-nav">
+  <div class="row">
+    <table>
       {% for post in site.posts %}
-      <tr class="home-nav-section">
-        <td class="home-nav-primary">
+      <tr>
+        <td>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </td>
       </tr>
