@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   <meta charset="utf-8" />
   <title>{{page.title}}</title>
+  <!-- Preload the CSS. -->
+  <link rel="preload" href="../css/base.css" as="style">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i" rel="preload" as="style"
+    onload="this.rel='stylesheet'" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="author" content="Cooper Pellaton" />
   <meta name="copyright" content="&copy; Copyright 2015 to Present" />
   <link type="text/plain" rel="author" href="/humans.txt" />
-  <link rel="canonical" href="https://cepp.ch/" />
+  <link rel="canonical" href="{{ site.url }}" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="{{ site.twitter_username }}" />
   <meta name="twitter:creator" content="{{ site.twitter_username }}" />
@@ -18,13 +22,8 @@
   <meta name="twitter:description" content="{{ site.description }}" />
   <link rel="icon" type="image/png" href=" {{ site.favicon }}" />
   <meta name="theme-color" content="{{ site.theme-color }}" />
-  <link rel="stylesheet" href="../../../css/base.css" />
-  <!-- <link rel="stylesheet" href="../../../css/blog.css" /> -->
-  <!-- The title font. -->
-  <link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700" rel="stylesheet" />
-  <!-- The post font. -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Set preloaded CSS as stylesheet. -->
+  <link rel="stylesheet" href="../css/base.css" />
 </head>
 
 <body class="flex-container">
