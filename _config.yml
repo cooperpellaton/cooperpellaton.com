@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cepp.ch"
 twitter_username: WBINVD
 github_username:  cooperpellaton
-favicon: /images/favicon.ico
+favicon: /assets/images/favicon.ico
 theme-color: "#778899"
 
 # Build settings
