@@ -1,9 +1,9 @@
 --- 
 layout: post 
-title: 🖨PrintShare🖨
+title: PrintShare
 date: 2016-04-02
 permalink: /blog/printshare.html
-lyric: "I love my life But when I open up my blurry eyes It's not as nice"
+lyric: "I love my life \\ But when I open up my blurry eyes \\ It's not as nice"
 artist: — K.Flay,
 genius_link: http://genius.com/Kflay-fml-lyrics
 song: FML

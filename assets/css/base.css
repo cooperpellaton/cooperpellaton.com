@@ -52,8 +52,6 @@ ul,
     padding: 0;
     margin: 30px auto 0px auto ;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     max-width: 650px;
 }

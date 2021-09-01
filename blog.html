@@ -4,7 +4,7 @@ title: Cooper's Blog
 ---
 
 <div class="flex-container">
-  <div class="row">
+  <div>
     <h1 class="home-name">
       <a rel="nofollow" href="/" class="emphasis">Cooper Pellaton</a>
     </h1>
@@ -14,15 +14,18 @@ title: Cooper's Blog
           href="http://quoteinvestigator.com/2012/04/28/shorter-letter/">*</a></sup>
     </p>
   </div>
-  <div class="row">
-    <table>
-      {% for post in site.posts %}
-      <tr>
-        <td>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </td>
-      </tr>
+  <div>
+    {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2 id="y{{post.date | date: " %Y"}}">{{ currentdate }}</h1>
+      <ul>
+        {% assign date = currentdate %}
+        {% endif %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% if forloop.last %}
+      </ul>{% endif %}
       {% endfor %}
-    </table>
   </div>
 </div>
