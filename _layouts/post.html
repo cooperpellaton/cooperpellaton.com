@@ -1,50 +1,19 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta charset="utf-8" />
-  <title>{{page.title}}</title>
-  <!-- Preload the CSS. -->
-  <link rel="preload" href="/assets/css/base.css" as="style">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i" rel="preload" as="style"
-    onload="this.rel='stylesheet'" />
-  <meta name="description" content="{{ site.description }}" />
-  <meta name="author" content="Cooper Pellaton" />
-  <meta name="copyright" content="&copy; Copyright 2015 to Present" />
-  <link type="text/plain" rel="author" href="/humans.txt" />
-  <link rel="canonical" href="{{ site.url }}" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="{{ site.twitter_username }}" />
-  <meta name="twitter:creator" content="{{ site.twitter_username }}" />
-  <meta name="twitter:url" content="{{ site.url }}" />
-  <meta name="twitter:title" content="{{ site.title }}" />
-  <meta name="twitter:description" content="{{ site.description }}" />
-  <link rel="icon" type="image/x-icon" href=" {{ site.favicon }}" />
-  <meta name="theme-color" content="{{ site.theme-color }}" />
-  <!-- Set preloaded CSS as stylesheet. -->
-  <link rel="stylesheet" href="/assets/css/base.css" />
-</head>
-
-<body class="flex-container">
-  <div class="content">
-    <!-- Article header with music. -->
-    <h1><a rel="nofollow" href="/blog/">{{ page.title }}</a></h1>
-    <h3>{{ page.date | date_to_long_string }}</h3>
-    <div>
-      <!-- Music header. -->
-      {% if page.lyric %}
-      <p>
-        {{ page.lyric }} <br />
-        {{ page.artist }}
-        <a rel="nofollow" href=" {{page.genius_link}} " target="_blank">
-          {{ page.song }}</a>
-      </p>
-      {% endif %}
-      <!-- Actual content. -->
-      {{ content }}
-    </div>
-  </div>
-</body>
-
-</html>
+---
+layout: default
+---
+<!-- Article header with music. -->
+<h1><a rel="nofollow" href="/blog/">{{ page.title }}</a></h1>
+<h3>{{ page.date | date_to_long_string }}</h3>
+<div>
+  <!-- Music header. -->
+  {% if page.lyric %}
+  <blockquote>
+    {{ page.lyric }} <br />
+    {{ page.artist }}
+    <a rel="nofollow" href=" {{page.genius_link}} " target="_blank">
+      {{ page.song }}</a>
+    {% endif %}
+  </blockquote>
+  <!-- Actual content. -->
+  {{ content }}
+</div>
