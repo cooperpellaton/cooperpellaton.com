@@ -43,7 +43,11 @@ h3 {
   margin-top: 1.5rem;
   font-size: 1rem;
 }
-a,p,ul,li,.nav-secondary {
+a,
+p,
+ul,
+li,
+.nav-secondary {
   font-family: "Lato", sans-serif;
 }
 a {
@@ -79,6 +83,11 @@ a:hover {
   body {
     color: #dfdfdf;
     background: #101010;
+  }
+  h1,
+  h2,
+  h3 {
+    color: #faebd7;
   }
   svg,
   object.svg,
