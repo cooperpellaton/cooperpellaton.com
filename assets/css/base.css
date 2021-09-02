@@ -11,11 +11,8 @@ body {
 /* The core of our grid system. */
 .flex-container {
     height: 100%;
-    padding: 0;
-    margin: 30px auto 0px auto ;
     display: flex;
     flex-direction: column;
-    max-width: 650px;
 }
 
 .row {
@@ -23,6 +20,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.content {
+    margin: 30px auto 0px auto ;
+    max-width: 650px;
 }
 
 h1,
@@ -79,4 +81,15 @@ a:hover {
 
 .nav-secondary span:last-of-type:after {
     content: "";
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #dfdfdf;
+    background: #101010;
+  }
+  
+  svg, object.svg, img.svg {
+    filter: invert(100%);
+  }
 }

@@ -27,20 +27,23 @@
 </head>
 
 <body class="flex-container">
-  <!-- Article header with music. -->
-  <h1><a rel="nofollow" href="/blog.html">{{ page.title }}</a></h1>
-  <h3>{{ page.date | date_to_long_string }}</h3>
-  <div>
-    {% if page.lyric %}
-    <p>
-      {{ page.lyric }} <br />
-      {{ page.artist }}
-      <a rel="nofollow" href=" {{page.genius_link}} " target="_blank">
-        {{ page.song }}</a>
-    </p>
-    {% endif %}
-    <!-- Actual content. -->
-    {{ content }}
+  <div class="content">
+    <!-- Article header with music. -->
+    <h1><a rel="nofollow" href="/blog/">{{ page.title }}</a></h1>
+    <h3>{{ page.date | date_to_long_string }}</h3>
+    <div>
+      <!-- Music header. -->
+      {% if page.lyric %}
+      <p>
+        {{ page.lyric }} <br />
+        {{ page.artist }}
+        <a rel="nofollow" href=" {{page.genius_link}} " target="_blank">
+          {{ page.song }}</a>
+      </p>
+      {% endif %}
+      <!-- Actual content. -->
+      {{ content }}
+    </div>
   </div>
 </body>
 
