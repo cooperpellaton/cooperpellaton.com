@@ -1,5 +1,4 @@
 body {
-  color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -48,7 +47,8 @@ p,
 ul,
 li,
 .nav-secondary {
-  font-family: "Lato", sans-serif;
+  color: #515151;
+  font-family: Helvetica, sans-serif;
 }
 a {
   color: #268bd2;
@@ -72,12 +72,6 @@ a:hover {
     url("/assets/fonts/348044_0_0.woff") format("woff"),
     url("/assets/fonts/348044_0_0.ttf") format("truetype");
   font-display: swap;
-}
-.nav-secondary span:after {
-  content: " /";
-}
-.nav-secondary span:last-of-type:after {
-  content: "";
 }
 @media (prefers-color-scheme: dark) {
   body {

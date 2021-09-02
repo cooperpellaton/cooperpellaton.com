@@ -19,5 +19,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-kramdown: 
-  parse_block_html: true

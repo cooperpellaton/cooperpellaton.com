@@ -2,7 +2,6 @@
 layout: default
 title: Cooper Pellaton
 ---
-
 <div class="row">
     <h1 class="home-name">Cooper Pellaton</h1>
     <sup
@@ -21,20 +20,13 @@ I'm quite interested in making systems go fast using distributed compute & machi
 
 Now, some links, if you are so inclined!
 </div>
-<div class="row">
-    <table>
-        <tr>
-            <td class="nav-secondary">
-                <span><a href="https://www.figma.com/file/pa8W1bP4olbKYKteZKaToi/Resume?node-id=0%3A1"
-                        rel="nofollow">resume</a></span>
-                <span><a href="/blog/">writing</a></span>
-                <span><a href="https://www.goodreads.com/user/show/54787375-cooper-pellaton">goodreads</a></span>
-                <span><a href="https://www.linkedin.com/in/cooperpellaton">linkedin</a></span>
-                <span><a href="https://github.com/cooperpellaton">github</a></span>
-                <span><a href="https://twitter.com/WBINVD">twitter</a></span>
-                <span><a href="pgp.txt">pgp</a></span>
-                <span><a href="https://keybase.io/cooper">keybase</a></span>
-            </td>
-        </tr>
-    </table>
+<div class="row nav" markdown="1">
+[resume](https://www.figma.com/file/pa8W1bP4olbKYKteZKaToi/Resume?node-id=0%3A1) /
+[writing](/blog/) /
+[goodreads](https://www.goodreads.com/user/show/54787375-cooper-pellaton) /
+[linkedin](https://www.linkedin.com/in/cooperpellaton) /
+[github](https://github.com/cooperpellaton) /
+[twitter](https://twitter.com/WBINVD) /
+[pgp](/pgp.txt) /
+[keybase](https://keybase.io/cooper)
 </div>
