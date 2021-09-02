@@ -1,58 +1,19 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta charset="utf-8" />
-  <title>{{page.title}}</title>
-  <meta name="description" content="{{ site.description }}" />
-  <meta name="author" content="Cooper Pellaton" />
-  <meta name="copyright" content="&copy; Copyright 2015 to Present" />
-  <link type="text/plain" rel="author" href="/humans.txt" />
-  <link rel="canonical" href="https://cepp.ch/" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="{{ site.twitter_username }}" />
-  <meta name="twitter:creator" content="{{ site.twitter_username }}" />
-  <meta name="twitter:url" content="{{ site.url }}" />
-  <meta name="twitter:title" content="{{ site.title }}" />
-  <meta name="twitter:description" content="{{ site.description }}" />
-  <link rel="icon" type="image/png" href=" {{ site.favicon }}" />
-  <meta name="theme-color" content="{{ site.theme-color }}" />
-  <link rel="stylesheet" href="../../../css/base.css" />
-  <link rel="stylesheet" href="../../../css/blog.css" />
-  <!-- The title font. -->
-  <link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700" rel="stylesheet" />
-  <!-- The post font. -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i" rel="stylesheet" />
-  <!-- The lyric font. -->
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600i" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="/js/reading-indicator.js"></script>
-</head>
-
-<body class="blog-body">
-  <progress value="0"></progress>
-  <div class="container content">
-    <div>
-      <!-- Article header with music. -->
-      <div class="home-header">
-        <h1 class="blog-body">
-          <a rel="nofollow" href="/blog.html" class="emphasis">{{ page.title }}</a>
-        </h1>
-        <h5 style="font-family: 'VeronaSerial', serif; margin-top: 0rem;">
-          {{ page.date | date_to_long_string }}
-        </h5>
-      </div>
-      <i>
-        <p style="font-family: 'Neuton', serif;">
-          {{ page.lyric }} <br />
-          {{ page.artist }}
-          <a rel="nofollow" href=" {{page.genius_link}} " target="_blank" class="emphasis">
-            {{ page.song }}</a>
-        </p>
-      </i>
-      <!-- Actual content. -->
-      {{ content }}
-</body>
-
-</html>
+---
+layout: default
+---
+<!-- Article header with music. -->
+<h1><a rel="nofollow" href="/blog/">{{ page.title }}</a></h1>
+<h3>{{ page.date | date_to_long_string }}</h3>
+<div>
+  <!-- Music header. -->
+  {% if page.lyric %}
+  <blockquote>
+    {{ page.lyric }} <br />
+    {{ page.artist }}
+    <a rel="nofollow" href=" {{page.genius_link}} " target="_blank">
+      {{ page.song }}</a>
+    {% endif %}
+  </blockquote>
+  <!-- Actual content. -->
+  {{ content }}
+</div>
