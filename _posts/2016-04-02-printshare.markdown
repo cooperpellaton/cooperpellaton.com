@@ -88,7 +88,7 @@ I’m incredibly proud to be a member of the extended Yale community, fortunate 
 
 I’m tired. I’m really tired, but if you have a project you want to work on with me, [let me know](mailto:c@cepp.ch?Subject=Talk%20To%20Me), because I’m hungrier than ever to win and I’m ready to do whatever it takes to get it.
 
-*Click [this](/files/printshare.zip) to download all the files I've mentioned. View/download individual files below.*
+*Click [this](/files/printshare/printshare.zip) to download all the files I've mentioned. View/download individual files below.*
 * CBIT Presentation [(PDF)](/files/printshare/CBIT_Deck.pdf)
 * CBIT Presentation [(Keynote)](/files/printshare/CBIT_Deck.key) 
 * CBIT Judging Feedback [(PDF)](/files/printshare/CBIT_Response.pdf)

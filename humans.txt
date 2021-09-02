@@ -1,13 +1,12 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+/* TEAM */
+Writer: Cooper Pellaton
+Site: cepp.ch
+Twitter: WBINVD
+Location: San Francisco, CA, USA
 
-    Cooper Pellaton -- @cooperpellaton
-
-# TECHNOLOGY COLOPHON
-
-	Jekyll + Github Sites + AWS S3/CF site hosting
-    HTML5, CSS3 (SCSS)
-    jQuery
-    grunt
+/* SITE */
+Last update: 2021/09
+Standards: HTML5, CSS3

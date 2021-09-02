@@ -1,8 +1,9 @@
 # Site settings
 title: Cooper Pellaton
 email: c@cepp.ch
-description: > # this means to ignore newlines until "baseurl:"
-  The personal musings of (the one and only) Cooper Pellaton.
+author: Cooper Pellaton
+description: The personal musings of Cooper Pellaton.
+keywords: Cooper Pellaton, Cooper Eloy Pierre Pellaton, CEPP, CPellaton, Pellatonc, Pellatoner, WBINVD, c__p_r, engineer, Memora Health, Alibaba, Video++, VideoJJ, Cigna, China, Chinese, Switzerland, Swiss, French, English, Pellaton
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cepp.ch"
 twitter_username: WBINVD
@@ -15,6 +16,7 @@ permalink: pretty
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
