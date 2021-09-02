@@ -8,9 +8,21 @@ body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
-a {
-    color: #268bd2;
-    text-decoration: none;
+/* The core of our grid system. */
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 30px auto 0px auto ;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 h1,
@@ -38,29 +50,16 @@ h3 {
     font-size: 1.25rem;
 }
 
+a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
 p,
-ul,
 .nav-secondary {
     font-size: 12pt;
     margin-top: 0;
     margin-bottom: 1rem;
-}
-
-/* The core of our grid system. */
-.flex-container {
-    height: 100%;
-    padding: 0;
-    margin: 30px auto 0px auto ;
-    display: flex;
-    flex-direction: column;
-    max-width: 650px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 a:hover {
