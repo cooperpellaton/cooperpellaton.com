@@ -89,6 +89,14 @@ a:hover {
     filter: invert(100%);
   }
 }
+.nav p:after {
+  content: " / ";
+  white-space: pre;
+  color: #c0c0c0;
+}
+.nav :last-of-type:after {
+  content: "";
+}
 /* HT: https://benhoyt.com/ */
 blockquote {
   font-size: 90%;
