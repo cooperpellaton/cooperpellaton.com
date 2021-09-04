@@ -27,7 +27,6 @@ h3 {
     "Segoe UI Symbol";
   font-weight: 700;
   line-height: 1.25;
-  color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -47,7 +46,6 @@ p,
 ul,
 li,
 .nav-secondary {
-  color: #515151;
   font-family: Helvetica, sans-serif;
 }
 a {
@@ -78,10 +76,9 @@ a:hover {
     color: #dfdfdf;
     background: #101010;
   }
-  h1,
-  h2,
-  h3 {
-    color: #faebd7;
+  a:hover {
+    background-color: transparent;
+    text-decoration: underline;
   }
   svg,
   object.svg,
