@@ -4,22 +4,26 @@ body {
   -ms-text-size-adjust: 100%;
   line-height: 1.2;
 }
+
 /* The core of our grid system. */
 .flex-container {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
+
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
+
 .content {
   margin: 30px auto 0px auto;
   max-width: 650px;
 }
+
 h1,
 h2,
 h3 {
@@ -29,18 +33,22 @@ h3 {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
 }
+
 h1 {
   font-size: 2.5rem;
   margin-top: 0rem;
   margin-bottom: 0.3rem;
 }
+
 h2 {
   font-size: 1.5rem;
 }
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1rem;
 }
+
 a,
 p,
 ul,
@@ -48,51 +56,58 @@ li,
 .nav-secondary {
   font-family: Helvetica, sans-serif;
 }
+
 a {
   color: #268bd2;
   text-decoration: none;
 }
+
 p,
 .nav-secondary {
   font-size: 12pt;
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
 a:hover {
   background-color: #ffefd5;
 }
+
 @font-face {
   font-family: "VeronaSerial";
   font-weight: 700;
-  src: url("/assets/fonts/348044_0_0.eot");
-  src: url("/assets/fonts/348044_0_0.eot?#iefix") format("embedded-opentype"),
-    url("/assets/fonts/348044_0_0.woff2") format("woff2"),
-    url("/assets/fonts/348044_0_0.woff") format("woff"),
-    url("/assets/fonts/348044_0_0.ttf") format("truetype");
+  src: url("/assets/fonts/348044_0_0.woff2") format("woff2"),
+    url("/assets/fonts/348044_0_0.woff") format("woff");
   font-display: swap;
 }
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #dfdfdf;
     background: #101010;
   }
+
   a:hover {
     background-color: transparent;
     text-decoration: underline;
   }
+
   svg,
   object.svg,
   img.svg {
     filter: invert(100%);
   }
 }
+
 .nav p:after {
   content: " / ";
   white-space: pre;
 }
+
 .nav :last-of-type:after {
   content: "";
 }
+
 /* HT: https://benhoyt.com/ */
 blockquote {
   font-size: 90%;
