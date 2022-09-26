@@ -1,7 +1,6 @@
 body {
   background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  text-size-adjust: auto;
   line-height: 1.2;
 }
 
@@ -27,8 +26,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "VeronaSerial", serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "VeronaSerial", serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-weight: 700;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -45,15 +43,13 @@ h2 {
 }
 
 h3 {
-  margin-top: 1.5rem;
   font-size: 1rem;
 }
 
 a,
 p,
 ul,
-li,
-.nav-secondary {
+li {
   font-family: Helvetica, sans-serif;
 }
 
@@ -62,11 +58,9 @@ a {
   text-decoration: none;
 }
 
-p,
-.nav-secondary {
+p {
   font-size: 12pt;
   margin-top: 0;
-  margin-bottom: 1rem;
 }
 
 a:hover {
