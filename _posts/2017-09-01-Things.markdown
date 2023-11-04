@@ -8,6 +8,7 @@ artist: — Shaun Frank,
 genius_link: https://soundcloud.com/shaunfrank/shaun-frank-upsidedown
 song: Upsidedown
 permalink: /blog/things.html
+hidden: false
 ---
 When I moved back to the US this August I filled an *entire* car with boxes, bags, and other miscellaneous items. While unpacking I said, out-loud, to myself: “Do I really have another pair of pants?”[^1] That was my wakeup call.
 
@@ -21,7 +22,6 @@ So goodbye to those shoes I wear once per season, and to that sweater, I thought
 
 I’m going back to basics.
 
-[^1]: At that time I owned 23 pairs. Too many, I know. 
+[^1]: At that time I owned 23 pairs. Too many, I know.
 [^2]: I have carved out some special exceptions (i.e. certain books).  
 [^3]: Cut in the sense of removing items from my life.
-

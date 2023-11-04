@@ -10,6 +10,7 @@ artist: — Madeon,
 genius_link: https://genius.com/Madeon-all-my-friends-lyrics
 song: All My Friends
 permalink: /blog/finishing.html
+hidden: false
 ---
 I find that one of the most mentally challenging tasks is figuring out when I have finished with something — not a task, but an object. For some it can be easy: the bar of soap diminishes to none, or the sponge falls apart, but with others it is not so clear.
 

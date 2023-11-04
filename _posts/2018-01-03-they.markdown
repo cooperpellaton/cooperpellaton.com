@@ -9,12 +9,13 @@ artist: — Lemaitre,
 genius_link: https://genius.com/Lemaitre-playing-to-lose-lyrics
 song: Playing To Lose
 permalink: /blog/they.html
+hidden: false
 ---
 On the prevalence of **they**.
 
-A year ago, or maybe more, I read an [article](https://www.newyorker.com/books/page-turner/what-part-of-no-totally-dont-you-understand) in *The New Yorker* about the transformation of “no” in the English language. In summary — no has gone from its true meaning — “~~**No**~~~~, I don’t want to eat that broccoli rabe.~~” — to instead mean yes. 
+A year ago, or maybe more, I read an [article](https://www.newyorker.com/books/page-turner/what-part-of-no-totally-dont-you-understand) in *The New Yorker* about the transformation of “no” in the English language. In summary — no has gone from its true meaning — “~~**No**~~~~, I don’t want to eat that broccoli rabe.~~” — to instead mean yes.
 
-The effect of that article on me was profound. 
+The effect of that article on me was profound.
 
 That was the first time I’d thought of language as a malleable construct. Obviously, language can be contorted, smoothed, and polished, but for a word to *literally* become its antithesis (yes, pun intended) was a revelation for me.
 
@@ -34,9 +35,9 @@ So I’ve come to realize that we use “they” as an abstraction.
 
 Sometimes it’s because the answer would be awkward, or needlessly specific. When a math professor states that this elusive *they* will have input on the format of the exam, he simply means he’s going to write it how he sees fit. We all intuitively understand the context in which this statement is being made, and most likely would understand it without this vague abstraction, but we insert it to make it easier for ourselves. Rather than implicate ourselves, to open up to criticism, questioning, or another form of exposure, we delegate the unpleasant parts of language and life to an unknown and uninteresting third party.
 
-To avoid the specifics, to make a situation more comprehensible, at the ironic cost of understanding, is the root of this conundrum. 
+To avoid the specifics, to make a situation more comprehensible, at the ironic cost of understanding, is the root of this conundrum.
 
-So, just as “no” has actually come to mean “yes”, I reckon that “they” is now analogous to “I” **and** seemingly no-one. We use it to make ourselves more comfortable. To fill the silences in speech that only the inexperienced and informal glance over and to diffuse the otherwise questionable situations. 
+So, just as “no” has actually come to mean “yes”, I reckon that “they” is now analogous to “I” **and** seemingly no-one. We use it to make ourselves more comfortable. To fill the silences in speech that only the inexperienced and informal glance over and to diffuse the otherwise questionable situations.
 
 So there’s my rant on **they**. This has been something that’s plagued my mind for a while — my watching of the usage patterns of *they* has made me paranoid about the clarity of my own speech.
 If just one more person could see this use of an abstraction in the same way I do, I would be happy.
