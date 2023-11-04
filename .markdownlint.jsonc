@@ -1,0 +1,5 @@
+{
+    "default": true,
+    "MD033": false, // allow in-line HTML
+    "MD013": false // lines >80 chars
+}
