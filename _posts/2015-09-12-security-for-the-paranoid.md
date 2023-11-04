@@ -2,6 +2,7 @@
 layout: post
 title: Security for the Paranoid
 date: 2015-09-12
+hidden: true
 ---
 So I've been thinking about security lately after having a bad run in with a certain profile manager on a school wifi
 network that managed to run as root on my computer. After this ordeal which forced me to completely wipe my drive and

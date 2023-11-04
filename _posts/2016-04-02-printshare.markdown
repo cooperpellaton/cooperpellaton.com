@@ -7,6 +7,7 @@ lyric: "I love my life \\ But when I open up my blurry eyes \\ It's not as nice"
 artist: — K.Flay,
 genius_link: http://genius.com/Kflay-fml-lyrics
 song: FML
+hidden: true
 ---
 **NOTE: This is in many ways a rant about fundraising, starting companies and how code/idea quality do not necessarily correlate directly to sucess. To maintain what little sanity I have left this post has been backdated.**
 

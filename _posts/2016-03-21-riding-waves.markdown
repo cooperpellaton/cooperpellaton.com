@@ -6,6 +6,7 @@ lyric: "I'm lost in the world, been down my whole life"
 artist: — Kanye West,
 genius_link: http://genius.com/Kanye-west-lost-in-the-world-lyrics
 song: Lost In The World
+hidden: true
 ---
 So I’ve been putting off writing this for a while because I knew it would mean looking critically into my own life and evaluating my goals, but the longer I wait the more important I realize this exercise in introspection is.
 

@@ -2,6 +2,7 @@
 layout: post 
 title: How Size Defined the Laptop
 date: 2015-09-28
+hidden: true
 ---
 I reluctantly picked up Steven Levy’s [“Hackers: Heroes of the Computer Revolution”](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396) as suggested reading
 for a computer science seminar that I’m currently taking. On a whim, I began reading and was unable to put the book down. I realize now that what I found so addicting about that read is the allure that early computing has. For all the prowess we might

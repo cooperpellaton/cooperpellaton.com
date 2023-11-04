@@ -7,6 +7,7 @@ artist: — CVBZ,
 genius_link: https://genius.com/Cvbz-vicodin-lyrics
 song: Vicodin
 permalink: /blog/the-return.html
+hidden: true
 ---
 I went to China and tentatively accepted a job offer. One that, despite no wrongdoing on my part, did not align with my long term goals.
 

@@ -6,6 +6,7 @@ artist: — Flume,
 genius_link: http://genius.com/Flume-lose-it-lyrics
 song: Lose It
 date: 2016-03-21
+hidden: true
 ---
 I need to provide you with an update on my journey to free software use.
 

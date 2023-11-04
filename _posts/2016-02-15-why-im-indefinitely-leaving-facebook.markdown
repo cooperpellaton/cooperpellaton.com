@@ -6,6 +6,7 @@ lyric: "Fuck a fake friend, where your real friends at?"
 artist: — Drake
 genius_link: http://genius.com/Drake-started-from-the-bottom-lyrics
 song: Started From the Bottom
+hidden: true
 ---
 *Some months ago [Evaline Xie](https://evalinexie.com) shared an essay with me on social media being a means for healthy introspection of one’s life. She hypothesized that if done correctly, a social media presence could be equal in value to that of a well documented journal of one’s feelings.*
 
