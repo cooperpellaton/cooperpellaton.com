@@ -26,7 +26,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "VeronaSerial", serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: "New York", "Georgia", serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-weight: 700;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -56,14 +56,6 @@ p {
 
 a:hover {
   background-color: #ffefd5;
-}
-
-@font-face {
-  font-family: "VeronaSerial";
-  font-weight: 700;
-  src: url("/assets/fonts/348044_0_0.woff2") format("woff2"),
-    url("/assets/fonts/348044_0_0.woff") format("woff");
-  font-display: swap;
 }
 
 @media (prefers-color-scheme: dark) {
