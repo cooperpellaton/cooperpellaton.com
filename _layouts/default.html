@@ -14,10 +14,21 @@
     {% feed_meta %}
 </head>
 
-<body class="container">
-    <div class="content">
-        {% include nav.html %}
-        {{ content }}
+<body>
+    <div class="grid-container">
+        <div class="grid-header">
+            <div class="constrained-width">
+                {% include nav.html %}
+            </div>
+        </div>
+        <div class="grid-main">
+            <div class="content constrained-width">
+                {{ content }}
+            </div>
+        </div>
+        <div class="grid-footer">
+            <!-- Optional footer content -->
+        </div>
     </div>
 </body>
 
