@@ -1,5 +1,4 @@
---- 
-layout: post 
+---
 title: What I Learned @ YHACK 2015
 date: 2015-10-08
 hidden: true

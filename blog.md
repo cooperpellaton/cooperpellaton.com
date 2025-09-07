@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Cooper's Blog
 ---
 # Cooper Pellaton

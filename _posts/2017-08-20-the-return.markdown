@@ -1,7 +1,6 @@
---- 
-layout: post 
+---
 title: The Return
-date: 2017-08-20 
+date: 2017-08-20
 lyric: "Pray up to the ceiling that we never lose this feeling"
 artist: — CVBZ,
 genius_link: https://genius.com/Cvbz-vicodin-lyrics

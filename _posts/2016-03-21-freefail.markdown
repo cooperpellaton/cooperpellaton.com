@@ -1,5 +1,4 @@
---- 
-layout: post 
+---
 title: FreeFail
 lyric: "Put away your inhibitions \ Let the beast in you just get loose"
 artist: — Flume,

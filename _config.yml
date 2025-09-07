@@ -2,25 +2,54 @@
 title: Cooper Pellaton
 email: c@cepp.ch
 author: Cooper Pellaton
+description: "Personal website and blog of Cooper Pellaton"
 keywords: Cooper Pellaton, Cooper Eloy Pierre Pellaton, CEPP, CPellaton, Pellatonc, Pellatoner, WBINVD, c__p_r, engineer, Memora Health, Alibaba, Video++, VideoJJ, Cigna, China, Chinese, Switzerland, Swiss, French, English, Pellaton
+lang: en
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cepp.ch"
 twitter:
   username: WBINVD
-  card: summary
 social:
   links:
     - https://github.com/cooperpellaton
+    - https://www.linkedin.com/in/cooperpellaton/
+    - https://bsky.app/profile/cooper.pellaton.is
 mastodon: "https://hachyderm.io/@loop"
 favicon: /assets/images/favicon.ico
 permalink: pretty
 
 # Build settings
 markdown: kramdown
+incremental: true
+profile: true
+timezone: America/Los_Angeles
+livereload: true
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-minifier
+
+# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
+  - .jekyll-cache
+  - gemfiles
+  - .direnv
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

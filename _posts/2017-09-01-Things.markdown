@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Things.
 date: 2017-09-1
 lyric: "I’m living in the upsidedown. \\
@@ -23,5 +22,5 @@ So goodbye to those shoes I wear once per season, and to that sweater, I thought
 I’m going back to basics.
 
 [^1]: At that time I owned 23 pairs. Too many, I know.
-[^2]: I have carved out some special exceptions (i.e. certain books).  
+[^2]: I have carved out some special exceptions (i.e. certain books).
 [^3]: Cut in the sense of removing items from my life.

@@ -1,5 +1,4 @@
---- 
-layout: post 
+---
 title: PrintShare
 date: 2016-04-02
 permalink: /blog/printshare.html
@@ -25,7 +24,7 @@ I’m still undecided about what I want to do with the software, so because of t
 
 To understand our solution you must first understand the problem. Let’s begin. If you’re being treated at a hospital in California and you need to seek treatment elsewhere, say at Yale New Haven [(YNHHS)](https://www.ynhhs.org/), when you get to YNHHS they will *call* up your California Hospital and request your records. This will then lead to a form being faxed to YNHHS that will authorize the release of the records in a HIPAA compliant manner and when this is recieved the hospital in California will then go and print all of your Electronic Medical Records that were requested from whatever management program they might have (EPIC, Cerner, Meditech), fax them and then shred them. **THIS IS LITERALLY INSANE! WHY?!**
 
-So let’s break this down. This begins with a damn phone call, a phone call! They register interest and then send a FAX. As a 19 year old, the last time I saw a fax machine was in 2001 when my father disposed of ours, but as I came to learn over the past 3 months, the government and healthcare systems (in the United States) use fax as a means of secure transfer because they have verified phone numbers and dot-codes meaning it’s very hard to spoof, and it’s low-tech enough that they don’t worry about intercept during transmission. So, you’re a hospital, you receive the phone call, fax your request, and then go and PRINT, that’s right you PRINT everything that’s in your DIGITAL patient management system. I’m getting angry just sitting at my desk. This is so backwards. So now that you’ve printed all your records out, you fax them and then shred the PRINTED paper, effectively creating waste so you can maintain your level of patient security. 
+So let’s break this down. This begins with a damn phone call, a phone call! They register interest and then send a FAX. As a 19 year old, the last time I saw a fax machine was in 2001 when my father disposed of ours, but as I came to learn over the past 3 months, the government and healthcare systems (in the United States) use fax as a means of secure transfer because they have verified phone numbers and dot-codes meaning it’s very hard to spoof, and it’s low-tech enough that they don’t worry about intercept during transmission. So, you’re a hospital, you receive the phone call, fax your request, and then go and PRINT, that’s right you PRINT everything that’s in your DIGITAL patient management system. I’m getting angry just sitting at my desk. This is so backwards. So now that you’ve printed all your records out, you fax them and then shred the PRINTED paper, effectively creating waste so you can maintain your level of patient security.
 
 Just dwell on how stupid all of this is for a moment.
 
@@ -33,13 +32,13 @@ Okay, we’re back. Now that you can realize how INSANE all of that is, I want t
 
 Alright, “Cooper, Cooper, why does any of this matter?!” I’m getting there, geez.
 
-So, we built PrintShare! It was rather simple (or at least I thought): a little piece of Windows software with some outside dependencies that installed itself (without administrator privileges) as a Windows print driver! So now you’re probably saying “How does this solve any of the problems you just detailed above!” Well, what we do is rather simple. When you go to print the documents you were going to send, rather than print them out, fax them, and then shred them, you just send them digitally, in a fraction of the time, and never worry about it again! As I’m writing this now it sounds so, so trivial. In our envisioned flow, when you go to print, a dialog box pops up and it tells you to input either a fax, or an email. You can send the documents per normal via fax (we spoof the number and dot-code) and at this point you’re already ahead because you’re saving money on paper. If you instead choose to send them via email we have a process for verifying what are actual hospital/doctor’s emails, and then you can send the transmission to a verified recipient who will simply receive the scans on her end as a PDF thereby mitigating the time and paper on *both* ends. 
+So, we built PrintShare! It was rather simple (or at least I thought): a little piece of Windows software with some outside dependencies that installed itself (without administrator privileges) as a Windows print driver! So now you’re probably saying “How does this solve any of the problems you just detailed above!” Well, what we do is rather simple. When you go to print the documents you were going to send, rather than print them out, fax them, and then shred them, you just send them digitally, in a fraction of the time, and never worry about it again! As I’m writing this now it sounds so, so trivial. In our envisioned flow, when you go to print, a dialog box pops up and it tells you to input either a fax, or an email. You can send the documents per normal via fax (we spoof the number and dot-code) and at this point you’re already ahead because you’re saving money on paper. If you instead choose to send them via email we have a process for verifying what are actual hospital/doctor’s emails, and then you can send the transmission to a verified recipient who will simply receive the scans on her end as a PDF thereby mitigating the time and paper on *both* ends.
 
 Essentially, what we built is a secure Print-to-PDF driver that handles end-to-end transfer of Electronic Medical Records so they stay electronic. I think this is pretty simple, but apparently it’s not. So, at the hackathon, we got this WORKING. As in we wrote the software, yet we didn’t win. In fact, we didn’t even come CLOSE. Instead, we were told that we were facing major HIPAA violations (of which there are none) and it was strongly implied that while we were the only team that actually built a full product and not some .pptx, it wasn’t impressive enough.
 
 Alright, I’m not a bitter person, so I took this in stride and I got back to work. Aaron and I decided we were going to continue to work on this because we knew that there was a re-pitch and that we could potentially land the Center for Biomedial and Interventional Technology [(CBIT)](http://cbit.yale.edu/) and YNHHS and get ourselves some real funding and a customer. In our minds this was simple: we have a working product, so we just need a logical appeal, a great deck when we re-pitch, and it will work.
 
-We decided to continue work on Tuesday the 26th of January after a ton of back and forth email. On the 28th of January I filed for, and subsequently received a provisional patent on the idea. So at this point Aaron and I decided we would continue development to try and get into Yale New Haven Health system, but we were at the hands of CBIT for scheduling the pitch (the dates were never clear). We filed for and were waiting to receive a provisional patent, and we decided to shop this around (logical, as we have a working product and deck from the hackathon) to some VCs. 
+We decided to continue work on Tuesday the 26th of January after a ton of back and forth email. On the 28th of January I filed for, and subsequently received a provisional patent on the idea. So at this point Aaron and I decided we would continue development to try and get into Yale New Haven Health system, but we were at the hands of CBIT for scheduling the pitch (the dates were never clear). We filed for and were waiting to receive a provisional patent, and we decided to shop this around (logical, as we have a working product and deck from the hackathon) to some VCs.
 
 Let’s start with the VCs.
 
@@ -55,7 +54,7 @@ So I want to be incredibly clear at this point. I LOVED the people at Oak HC/FT.
 
 Instead, I’m assailing the institutional thinking. For a lot of people, what we pitched wasn't so much a product as it was the idea of going digital, of accomplishing everything online -- something that went against established, accepted, tradition that made them uncomfortable. It wasn’t necessarily their age (though most of the people we pitched were older by nature as getting an M.D. and being respected in the medical field takes time) but the fact they’d spent so long in the institution that the institution DIDN’T look as crazy as it did to me, a complete and total outsider. It’s this combination of stagnation of thought, complacency and groupthink that create an intersection by which the insanity of the institution appears normal, and we, as the outsiders attempting to change the system are regarded as assailants and questioned accordingly.
 
-So now for a little technical bit. 
+So now for a little technical bit.
 
 I rewrote the API for this 3 times. I started by how I would’ve before this project with my own server implementation in PHP. That initial deploy was pretty large and it took me one month, all of February, to pin down so that this would work properly (note to self, never ever use [Phalcon](https://phalconphp.com/en/) again). Then, when I was back at Yale on March 4<sup>th</sup> I had some free time on that Friday night and I said, “Meh, I can get better performance, let me do this in Node.js” and that implementation was maybe 1/8 of the amount of code of the original and performed better (written in one(!) night mind you). From there though, and the reason I’m writing about this, I found out about [AWS Lambda](https://aws.amazon.com/lambda/) (thanks to the person who I know is reading this but wouldn’t want to be named), and holy fucking shit is that service amazing. It simply could not be more amazing. In 13 lines, ***13 motherfucking lines***, I had a working API that was completely built on the Amazon stack. Meaning no longer was I responsible for uptime, reliability or signing, instead that was all on Amazon and that was amazing.
 
@@ -63,7 +62,7 @@ I bring this up for two reasons, one because Lambda is amazing and you should go
 
 In the future, if Aaron has more time, and I’m available, I would love to work on another project with him because we think similarly, and yet we approach problems in different ways and it’s for this reason that I think we would write some truly amazing software together. That said, it was just so very hard to continuing developing PrintShare at pace when it *felt* to me at times like I was the only one that was pushing as hard to keep moving forward.
 
-So this all brings me to this week. I’d been working on the software until the middle of March, and then in my free time began putting together the deck for the CBIT repitch, the one in which we’d hopefully get monetary backing and assistance from CBIT that would put us in YNHHS with real users and get us on a trajectory to success. 
+So this all brings me to this week. I’d been working on the software until the middle of March, and then in my free time began putting together the deck for the CBIT repitch, the one in which we’d hopefully get monetary backing and assistance from CBIT that would put us in YNHHS with real users and get us on a trajectory to success.
 
 We aced the pitch. Not.
 
@@ -91,8 +90,7 @@ I’m tired. I’m really tired, but if you have a project you want to work on w
 
 *Click [this](/files/printshare/printshare.zip) to download all the files I've mentioned. View/download individual files below.*
 * CBIT Presentation [(PDF)](/files/printshare/CBIT_Deck.pdf)
-* CBIT Presentation [(Keynote)](/files/printshare/CBIT_Deck.key) 
+* CBIT Presentation [(Keynote)](/files/printshare/CBIT_Deck.key)
 * CBIT Judging Feedback [(PDF)](/files/printshare/CBIT_Response.pdf)
 * Hackathon Presentation [(PDF)](/files/printshare/Hackathon_Deck.pdf)
 * Venture Capital Solicit Description [(PDF)](/files/printshare/PrintShareSolicitDescription.pdf)
-

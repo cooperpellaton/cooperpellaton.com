@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Cooper Pellaton
 ---
 <h1 class="home-name">Cooper Pellaton

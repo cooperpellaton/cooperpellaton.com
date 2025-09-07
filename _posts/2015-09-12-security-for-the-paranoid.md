@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Security for the Paranoid
 date: 2015-09-12
 hidden: true

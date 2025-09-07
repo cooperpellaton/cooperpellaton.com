@@ -1,5 +1,4 @@
---- 
-layout: post 
+---
 title: Why I'm Indefinintely Leaving Facebook
 date: 2016-02-15
 lyric: "Fuck a fake friend, where your real friends at?"
@@ -13,7 +12,7 @@ hidden: true
 I’ve been on Facebook for a long time: since the middle of 2007 when accounts were first opened to the public (I was 10 years old) and I’ve seen it go through many tides. I’ve seen my fair share of redesigns, feature introductions and sunsets, as well as the rotation in crops of friends. The *only* thing that remains from those earliest years, save few of the friends I have from then, are the very young pictures of me.
 For a while, I’ve taken a contrarian approach to Facebook. I’ve trimmed my friends every year or so trying to avoid the **fake** friends -- the ones whose photos and posts you like, or you like solely for avoiding the fear of missing out but who you never interact with meaningfully. I ruthlessly unfollowed and unfriended family and I constantly tried to limit the number of groups I was a part of. Yet throughout all of this I felt my return on investment was very low. I would spend ~5-10 minutes per day perusing my feed only to leave feeling worse than before. I’d feel bad only seeing friends achievements or pictures when I had none of my own to post. To be clear, it’s *not* that I feel like my life is devoid of those things, it’s more so just that I seldom post in the first place (that’s a matter for another post though).
 
-In the past months I’ve felt it become more toxic. 
+In the past months I’ve felt it become more toxic.
 
 I’ve had people friend me after meeting once only to never interact with them again. I’ve been added to groups and constantly notified of events which I feel like I should follow, but I really don’t care for. The last straw for me was realizing today that I wanted to do something so that I could get the likes and the comments on Facebook. Having the realization that the fuel for my actions was something negative, and that I purely wanted to do something for public attention was just too much for me.
 

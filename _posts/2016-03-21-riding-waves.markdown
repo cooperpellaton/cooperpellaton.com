@@ -1,7 +1,6 @@
---- 
-layout: post 
+---
 title: Riding Waves
-date: 2016-03-21 
+date: 2016-03-21
 lyric: "I'm lost in the world, been down my whole life"
 artist: — Kanye West,
 genius_link: http://genius.com/Kanye-west-lost-in-the-world-lyrics

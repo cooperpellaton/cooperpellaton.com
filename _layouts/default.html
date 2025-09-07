@@ -16,15 +16,11 @@
 
 <body>
     <div class="grid-container">
-        <div class="grid-header">
-            <div class="constrained-width">
-                {% include nav.html %}
-            </div>
+        <div class="grid-nav">
+            {% include nav.html %}
         </div>
-        <div class="grid-main">
-            <div class="content constrained-width">
-                {{ content }}
-            </div>
+        <div class="grid-content">
+            {{ content }}
         </div>
         <div class="grid-footer">
             <!-- Optional footer content -->

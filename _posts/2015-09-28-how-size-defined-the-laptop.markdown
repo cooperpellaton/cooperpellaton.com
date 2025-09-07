@@ -1,5 +1,4 @@
 ---
-layout: post 
 title: How Size Defined the Laptop
 date: 2015-09-28
 hidden: true
@@ -49,4 +48,3 @@ one possible and carry it with you everywhere because you don’t know when you�
 turn to work without restriction, but get that small laptop so that you’ll never need to compromise on being able to accomplish your work.
 
 **Thanks** to Evaline Xie and Joe Sweeney for reading earlier drafts of this and confirming that I was not indeed crazy.
-
