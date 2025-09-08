@@ -8,5 +8,5 @@ Twitter: WBINVD
 Location: San Francisco, CA, USA
 
 /* SITE */
-Last update: 2021/09
+Last update: 2025/09
 Standards: HTML5, CSS3

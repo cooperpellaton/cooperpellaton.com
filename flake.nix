@@ -23,6 +23,7 @@
           buildInputs = with pkgs; [
             bundler
             ruby
+	    stylelint
           ];
         };
       }

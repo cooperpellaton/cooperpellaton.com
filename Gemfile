@@ -10,6 +10,8 @@ gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 gem "jekyll-minifier"
 
+gem 'github-pages', group: :jekyll_plugins
+
 # Development gems
 group :development do
   gem "jekyll-livereload"
