@@ -22,7 +22,7 @@
           stylelint
           (writeShellScriptBin "format" ''
             ${prettier}/bin/prettier --write \
-              _config.yml .markdownlint.jsonc .prettierrc \
+              _config.yml _data/navigation.yml .markdownlint.jsonc .prettierrc \
               _includes/base.css _layouts/*.html \
               index.md blog.md _posts/*.md _posts/*.markdown
           '')

@@ -3,15 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+        <meta name="color-scheme" content="light dark" />
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#101010" media="(prefers-color-scheme: dark)" />
         <style>
             {% include base.css %}
         </style>
-        <meta name="keywords" content="{{ site.keywords }}" />
-        <meta name="copyright" content="&copy; Copyright 2015 to Present" />
         <link type="text/plain" rel="author" href="/humans.txt" />
         <link rel="me" href="{{ site.mastodon }}" />
         <link rel="icon" type="image/x-icon" href="{{ site.favicon }}" />
-        {% seo %} {% feed_meta %}
+        <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        {% seo title=false %} {% feed_meta %}
         <script type="speculationrules">
             {
                 "prerender": [
@@ -27,9 +29,10 @@
     </head>
 
     <body>
+        <a class="skip-link" href="#content">Skip to main content</a>
         <div class="grid-container">
             <header class="grid-nav">{% include nav.html %}</header>
-            <main class="grid-content">{{ content }}</main>
+            <main class="grid-content" id="content">{{ content }}</main>
             <footer class="grid-footer">
                 <p>
                     &copy; 2015&ndash;present Cooper Pellaton &middot;

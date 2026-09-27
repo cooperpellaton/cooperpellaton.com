@@ -1,0 +1,15 @@
+- name: home
+  url: /
+- name: blog
+  url: /blog/
+  layout: post # also highlight on post pages
+- name: resume
+  url: /files/Cooper%20Pellaton%20Resume%202024.pdf
+- name: linkedin
+  url: https://www.linkedin.com/in/cooperpellaton
+- name: github
+  url: https://github.com/cooperpellaton
+- name: goodreads
+  url: https://www.goodreads.com/user/show/54787375-cooper-pellaton
+- name: pgp
+  url: /pgp.txt
