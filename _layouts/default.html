@@ -1,31 +1,41 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+        <style>
+            {% include base.css %}
+        </style>
+        <meta name="keywords" content="{{ site.keywords }}" />
+        <meta name="copyright" content="&copy; Copyright 2015 to Present" />
+        <link type="text/plain" rel="author" href="/humans.txt" />
+        <link rel="me" href="{{ site.mastodon }}" />
+        <link rel="icon" type="image/x-icon" href="{{ site.favicon }}" />
+        {% seo %} {% feed_meta %}
+        <script type="speculationrules">
+            {
+                "prerender": [
+                    {
+                        "where": {
+                            "and": [{ "href_matches": "/*" }, { "not": { "href_matches": "/files/*" } }]
+                        },
+                        "eagerness": "moderate"
+                    }
+                ]
+            }
+        </script>
+    </head>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
-    <meta charset="utf-8" />
-    <style>{% include base.css %}</style>
-    <meta name="keywords" content="{{ site.keywords }}">
-    <meta name="copyright" content="&copy; Copyright 2015 to Present" />
-    <link type="text/plain" rel="author" href="/humans.txt" />
-    <link rel="me" href="{{ site.mastodon }}" />
-    <link rel="icon" type="image/x-icon" href="{{ site.favicon }}" />
-    {% seo %}
-    {% feed_meta %}
-</head>
-
-<body>
-    <div class="grid-container">
-        <div class="grid-nav">
-            {% include nav.html %}
+    <body>
+        <div class="grid-container">
+            <header class="grid-nav">{% include nav.html %}</header>
+            <main class="grid-content">{{ content }}</main>
+            <footer class="grid-footer">
+                <p>
+                    &copy; 2015&ndash;present Cooper Pellaton &middot;
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+            </footer>
         </div>
-        <div class="grid-content">
-            {{ content }}
-        </div>
-        <div class="grid-footer">
-            <!-- Optional footer content -->
-        </div>
-    </div>
-</body>
-
+    </body>
 </html>

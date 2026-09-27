@@ -8,6 +8,7 @@ song: Vicodin
 permalink: /blog/the-return.html
 hidden: true
 ---
+
 I went to China and tentatively accepted a job offer. One that, despite no wrongdoing on my part, did not align with my long term goals.
 
 That's why I'm back in the US today, having taken 5 flights over the past 5 weeks going from Shanghai to San Francisco to Connecticut and finally to New York City.

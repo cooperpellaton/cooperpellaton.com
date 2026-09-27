@@ -1,6 +1,7 @@
 ---
 title: Cooper Pellaton
 ---
+
 <h1 class="home-name">Cooper Pellaton
     <sup
         title="This site uses no third-party javascript, or tracking. It espouses the same principles I appreciate on the web.">

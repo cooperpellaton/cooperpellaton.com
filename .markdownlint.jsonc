@@ -1,5 +1,6 @@
 {
     "default": true,
     "MD033": false, // allow in-line HTML
-    "MD013": false // lines >80 chars
+    "MD013": false, // lines >80 chars
+    "MD025": { "front_matter_title": "" }, // Jekyll consumes front matter; the body renders the only h1
 }

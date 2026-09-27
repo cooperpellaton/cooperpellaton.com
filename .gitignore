@@ -1,15 +1,16 @@
-_cache
-_site
-s3_website.yml
-.DS_Store
-.vscode
-Gemfile.lock
-.sass-cache/
+# Jekyll build artifacts
+_site/
 .jekyll-cache/
 .jekyll-metadata
-*.gem
+
+# Ruby
+.bundle/
+Gemfile.lock
+
+# Nix
+.direnv/
+
+# Editor / OS
+.DS_Store
 *.swp
 *~
-.bundle/
-*.lock
-.direnv

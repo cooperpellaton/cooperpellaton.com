@@ -1,31 +1,36 @@
 {
   description = "Blog development shell";
 
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    flake-utils.url = "github:numtide/flake-utils";
-  };
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-  outputs = {
-    self,
-    nixpkgs,
-    flake-utils,
-    ...
-  }:
-    flake-utils.lib.eachDefaultSystem
-    (
-      system: let
-        pkgs = import nixpkgs {
-          inherit system;
-        };
-      in {
-        devShells.default = pkgs.mkShell {
-          buildInputs = with pkgs; [
-            bundler
-            ruby
-	    stylelint
-          ];
-        };
-      }
-    );
+  outputs =
+    {
+      self,
+      nixpkgs,
+    }:
+    let
+      system = "aarch64-darwin";
+      pkgs = nixpkgs.legacyPackages.${system};
+    in
+    {
+      formatter.${system} = pkgs.nixfmt;
+
+      devShells.${system}.default = pkgs.mkShell {
+        packages = with pkgs; [
+          bundler
+          ruby
+          stylelint
+          (writeShellScriptBin "format" ''
+            ${prettier}/bin/prettier --write \
+              _config.yml .markdownlint.jsonc .prettierrc \
+              _includes/base.css _layouts/*.html \
+              index.md blog.md _posts/*.md _posts/*.markdown
+          '')
+          (writeShellScriptBin "lint" ''
+            ${markdownlint-cli2}/bin/markdownlint-cli2 \
+              index.md blog.md _posts/*.md _posts/*.markdown
+          '')
+        ];
+      };
+    };
 }

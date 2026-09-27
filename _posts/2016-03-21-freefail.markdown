@@ -7,6 +7,7 @@ song: Lose It
 date: 2016-03-21
 hidden: true
 ---
+
 I need to provide you with an update on my journey to free software use.
 
 This was a rough year for me, in many ways. I’ve been through a lot and my opinions on both software & productivity have changed substantially.

@@ -1,3 +1,8 @@
+/* validated by styleint */
+@view-transition {
+    navigation: auto;
+}
+
 :root {
     /* Typography Scale */
     --font-size-base: 16px;
@@ -18,7 +23,7 @@
     /* Colors */
     --color-background: #fff;
     --color-text: #000;
-    --color-link: #268bd2;
+    --color-link: #1a6fa8;
     --color-link-hover: #ffefd5;
 }
 
@@ -62,6 +67,11 @@ body {
     grid-area: footer;
 }
 
+.grid-footer p {
+    font-size: 90%;
+    opacity: 0.75;
+}
+
 /* Typography System */
 h1,
 h2,
@@ -96,7 +106,8 @@ li {
 
 a {
     color: var(--color-link);
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
 }
 
 p {
@@ -146,6 +157,17 @@ a:hover {
 
 .nav :last-of-type::after {
     content: "";
+}
+
+/* Nav items sit in a dedicated landmark, not prose; underline omitted there. */
+.nav a {
+    text-decoration: none;
+}
+
+/* Post metadata */
+.post-date {
+    font-size: 90%;
+    opacity: 0.75;
 }
 
 /* HT: https://benhoyt.com/ */

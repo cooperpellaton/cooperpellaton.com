@@ -8,48 +8,48 @@ lang: en
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cepp.ch"
 twitter:
-  username: WBINVD
+    username: WBINVD
 social:
-  links:
-    - https://github.com/cooperpellaton
-    - https://www.linkedin.com/in/cooperpellaton/
-    - https://bsky.app/profile/cooper.pellaton.is
+    links:
+        - https://github.com/cooperpellaton
+        - https://www.linkedin.com/in/cooperpellaton/
+        - https://bsky.app/profile/cooper.pellaton.is
 mastodon: "https://hachyderm.io/@loop"
 favicon: /assets/images/favicon.ico
 permalink: pretty
 
 # Build settings
 markdown: kramdown
-incremental: true
-profile: true
 timezone: America/Los_Angeles
-livereload: true
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-minifier
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-minifier
 
 # Exclude from processing
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - .jekyll-cache
-  - gemfiles
-  - .direnv
+    - Gemfile
+    - Gemfile.lock
+    - .jekyll-cache
+    - gemfiles
+    - .direnv
+    - .envrc
+    - flake.nix
+    - flake.lock
 
 # Front matter defaults
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
+    - scope:
+          path: ""
+          type: "posts"
+      values:
+          layout: "post"
+          comments: false
+    - scope:
+          path: ""
+          type: "pages"
+      values:
+          layout: "default"

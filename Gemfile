@@ -1,18 +1,10 @@
 source "https://rubygems.org"
 
-# bundle install
-# bundle exec jekyll serve
-gem "jekyll"
-gem "kramdown"
-gem "kramdown-parser-gfm"
-gem "jekyll-feed"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
-gem "jekyll-minifier"
+# Deploy target is GitHub Pages. This gem pins the exact dependency versions
+# (jekyll included) that the production builder uses, so local builds match.
+gem "github-pages", group: :jekyll_plugins
 
-gem 'github-pages', group: :jekyll_plugins
-
-# Development gems
-group :development do
-  gem "jekyll-livereload"
-end
+# Plugins activated in _config.yml — declared directly, not transitively.
+gem "jekyll-feed", group: :jekyll_plugins
+gem "jekyll-sitemap", group: :jekyll_plugins
+gem "jekyll-seo-tag", group: :jekyll_plugins
